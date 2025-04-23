@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8192 4000">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st1 {
+        fill: #fff;
+      }
+
+      .st2, .st3 {
+        fill: #ecf0f1;
+      }
+
+      .st2, .st3, .st4 {
+        fill-rule: evenodd;
+      }
+
+      .st5 {
+        fill: #5d6266;
+      }
+
+      .st6 {
+        fill: none;
+      }
+
+      .st7 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st8 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st9 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st10 {
+        opacity: .2;
+      }
+
+      .st11 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st3 {
+        isolation: isolate;
+        opacity: .3;
+      }
+
+      .st4 {
+        fill: #fafbfb;
+      }
+
+      .st12 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st6" y="-33.5" width="8192" height="4033.5"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st6" y="-33.5" width="8192" height="4033.5"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st6" y="-33.5" width="8192" height="4033.5"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st6" y="-33.5" width="8192" height="4033.5"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st6" y="-33.5" width="8192" height="4033.5"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st6" y="-33.5" width="8192" height="4033.5"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g class="st12">
+      <rect class="st1" x="21.2" y="-10.2" width="8149.6" height="3986.8"/>
+    </g>
+    <g class="st7">
+      <polygon class="st4" points="7101.6 3976.6 8170.8 -10.2 8133.7 -10.2 5556.8 3976.6 7101.6 3976.6"/>
+    </g>
+    <g class="st11">
+      <polygon class="st2" points="7237 3976.6 8170.8 -10.2 7101.6 3976.6 7237 3976.6"/>
+    </g>
+    <g class="st9">
+      <polygon class="st2" points="5556.8 3976.6 8133.7 -10.2 5421.4 3976.6 5556.8 3976.6"/>
+    </g>
+    <g class="st0">
+      <polygon class="st3" points="21.2 3976.6 6613.4 -10.2 21.2 -10.2 21.2 3976.6"/>
+    </g>
+    <g class="st8">
+      <polygon class="st2" points="949.1 3976.6 6613.4 -10.2 21.2 3976.6 949.1 3976.6"/>
+    </g>
+  </g>
+  <g class="st10">
+    <path class="st5" d="M5866.7,1909.5c30.6,9.5,22.9,195.7,19.9,234.4-92.2,1199.4-1463.2,1960.4-2529.2,1376.7-1238.8-678.3-1239.5-2444.5-4.7-3119.6,527.9-288.6,1257.9-294.9,1756,55.4-44.8,53.4-114.1,233.6-183.3,244.2-28.5,4.3-261.4-98.2-322.7-114.5-1270.2-338.5-2298.9,954.5-1654.2,2096.6,660.4,1170,2443.8,788.4,2602.9-552.2,8.7-73.2-24.5-163.8,33.7-221h281.5Z"/>
+    <path class="st5" d="M4184.1,1105.2c6.3,462.9,352.1,803.8,804.6,851.3-84.2,21.6-170.7,27.4-254.3,54.2-278.7,89.3-511.3,372.8-537.9,666.1l-52.5,50.5c-9.9-286.5-205.1-577.2-469.5-690.2-68.1-29.1-164.4-38.6-221.9-72.5-12.4-7.3-26.4,6.7-19.2-28.1,391.9-44.4,656.1-341.8,720.2-721,6.1-36.1-14.2-121.1,30.5-110.2Z"/>
+  </g>
+</svg>

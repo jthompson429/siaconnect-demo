@@ -3062,10 +3062,10 @@ input, select, textarea {
 
 	#header {
 		padding: 5em 0 5em 0 ;
-		background-color: #ffffff;
+		background-color: #0050b6;
 		color: rgba(0, 0, 0, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("assets/css/images/sia_header_background_circuit_grid_bright.svg"), linear-gradient(45deg, #101010 5%, #000000 30%, #202020);
+		background-image: url("assets/css/images/sia_header_background_circuit_grid_bright.svg"), linear-gradient(45deg, #0050b6, #000000 50%, #0050b6 95%);
 		background-position: top left,						center center,					center center;
 		background-size: cover,							cover,							cover;
 		overflow: hidden;

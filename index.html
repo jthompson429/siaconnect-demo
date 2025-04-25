@@ -52,19 +52,32 @@
 		</section>
 		
 <!-- Access Section -->
-		<section class="siaconnect-access-section">
+<section class="siaconnect-access-section">
+  <svg class="siaconnect-svg-bg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1600 900">
+    <defs>
+      <radialGradient id="pulseGradient" cx="50%" cy="50%" r="70%">
+        <stop offset="0%" stop-color="#111987" stop-opacity="0.4">
+          <animate attributeName="stop-opacity" values="0.4;0.8;0.4" dur="6s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="60%" stop-color="#000000" stop-opacity="0.85">
+          <animate attributeName="stop-opacity" values="0.85;1;0.85" dur="6s" repeatCount="indefinite" />
+        </stop>
+        <stop offset="100%" stop-color="#000000" stop-opacity="1" />
+      </radialGradient>
+    </defs>
+    <rect width="1600" height="900" fill="url(#pulseGradient)" />
+  </svg>
+
   <div class="container">
     <h1>Ways to Access SIAConnect</h1>
-    
+
     <div class="mockup-row">
-      <!-- Mobile Column -->
       <div class="mockup-column">
         <h2>Mobile</h2>
         <img src="images/siaconnect_mockup_mobile_unified.png" alt="SIAConnect on Mobile">
         <p>Access through your company provisioned mobile device</p>
       </div>
-      
-      <!-- Desktop Column -->
+
       <div class="mockup-column">
         <h2>Desktop</h2>
         <img src="images/siaconnect_mockup_desktop_unified.png" alt="SIAConnect on Desktop">
@@ -72,7 +85,7 @@
       </div>
     </div>
   </div>
-</section>		
+</section>	
 							
 <!-- Use Cases Section -->
 		<section id="usecases" class="main style2">

@@ -3145,11 +3145,11 @@ input, select, textarea {
 				}
 
 		#header ul.major-icons li .icon {
-			border-color: #ffffff;
+			border-color: #cccccc;
 		}
 
 		#header .icon.major {
-			color: #ffffff;
+			color: #cccccc;
 		}
 
 		#header h1 {
@@ -3223,7 +3223,7 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
+			background-image: linear-gradient(45deg, #0a0a0a, #2b2f38);
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3386,10 +3386,10 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #0050b6;
+		background-color: #0a0a0a;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #0050b6, #000000 50%, #0050b6 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #2b2f38, #111987 50%, #0a0a0a 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3400,7 +3400,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #ffffff;
+				color: #111987;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
@@ -3468,11 +3468,11 @@ input, select, textarea {
 				}
 
 		#footer ul.major-icons li .icon {
-			border-color: #ffffff;
+			border-color: #cccccc;
 		}
 
 		#footer .icon.major {
-			color: #ffffff;
+			color: #cccccc;
 		}
 
 		#footer .icons {
@@ -3503,7 +3503,7 @@ input, select, textarea {
 .siaconnect-access-section {
   position: relative;
   overflow: hidden;
-  background-color: #000;
+  background-color: #0a0a0a;
   color: #ffffff;
   text-align: center;
   padding: 80px 0;

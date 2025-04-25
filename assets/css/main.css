@@ -3495,12 +3495,32 @@ input, select, textarea {
 				}
 /* siaconnect-access-section */
 .siaconnect-access-section {
-  background-image: url('assets/images/siaconnect_demo_background_dark.png');
+  background-image: url('images/siaconnect_demo_background_dark.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 80px 0; /* adjust as needed */
-  color: white; /* if text overlays it */
+  padding: 80px 0;
+  color: white;
+  text-align: center;
+}
+
+.mockup-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.mockup-column {
+  max-width: 400px;
+}
+
+.mockup-column img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }
 
 /* XLarge */

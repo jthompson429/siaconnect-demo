@@ -3525,6 +3525,7 @@ input, select, textarea {
 
 .mockup-row {
   display: flex;
+  align-items: flex-start; /* aligns tops */
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
@@ -3536,9 +3537,9 @@ input, select, textarea {
 }
 
 .mockup-column img {
-  height: 500px; /* or match mobile's real height */
+  max-height: 600px; /* or whatever looks good */
   width: auto;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 12px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }

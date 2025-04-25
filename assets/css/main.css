@@ -84,7 +84,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #0a0a0a;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -118,7 +118,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #6bd4c8;
+			color: #111987;
 		}
 
 	strong, b {
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #0050b6;
+		color: #ffffff;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}

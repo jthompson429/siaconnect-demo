@@ -3067,7 +3067,7 @@ input, select, textarea {
 		background-attachment: fixed,							fixed,							fixed;
 		background-image: url("assets/css/images/sia_header_background_circuit_grid_bright.svg"), linear-gradient(45deg, #101010 5%, #000000 30%, #202020);
 		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-size: cover,							cover,							cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;

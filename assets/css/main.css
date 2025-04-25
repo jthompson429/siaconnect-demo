@@ -3509,7 +3509,7 @@ input, select, textarea {
 			#header {
 				padding: 6em 0 6em 0 ;
 				background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay5.svg"), linear-gradient(45deg, #0050b6, #000000 50%, #0050b6 95%);
+		background-image: url("images/overlay2.png"), url("assets/css/images/sia_header_background_circuit_grid_bright.svg"), linear-gradient(45deg, #0050b6, #000000 50%, #0050b6 95%);
 		background-position: top left,						center center,					center center;
 			}
 

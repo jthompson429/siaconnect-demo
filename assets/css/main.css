@@ -3502,6 +3502,10 @@ input, select, textarea {
   text-align: center;
   padding: 80px 0;
 }
+.siaconnect-access-section h1,
+.siaconnect-access-section h2 {
+  text-align: left;
+}
 
 /* SVG animation overlay */
 .siaconnect-svg-bg {

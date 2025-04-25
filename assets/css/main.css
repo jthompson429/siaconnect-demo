@@ -3495,13 +3495,28 @@ input, select, textarea {
 				}
 /* siaconnect-access-section */
 .siaconnect-access-section {
-  background-image: url('images/siaconnect_demo_background_dark.png');
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
   color: #ffffff;
   text-align: center;
+  padding: 80px 0;
+}
+
+/* SVG animation overlay */
+.siaconnect-svg-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Content container above SVG */
+.siaconnect-access-section .container {
+  position: relative;
+  z-index: 1;
 }
 
 .mockup-row {

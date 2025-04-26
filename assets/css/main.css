@@ -3580,7 +3580,7 @@ input, select, textarea {
 }
 
 .glow-image {
-  width: 200px;
+  width: 75%;
   margin-bottom: 30px;
   animation: pulseGlow 6s infinite ease-in-out;
 }

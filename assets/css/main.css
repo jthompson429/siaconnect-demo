@@ -3564,6 +3564,65 @@ input, select, textarea {
   width: auto;
 }
 
+/* SIAConnect Future Section */
+.future-section {
+  background: #000000;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.future-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInFuture 1.8s ease;
+}
+
+.glow-image {
+  width: 200px;
+  margin-bottom: 30px;
+  animation: pulseGlow 6s infinite ease-in-out;
+}
+
+.future-section h2 {
+  font-size: 2.5em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.future-section p {
+  font-size: 1.2em;
+  color: #cccccc;
+  margin-bottom: 40px;
+}
+
+.future-section .button.special {
+  background-color: #111987;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1em;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.future-section .button.special:hover {
+  background-color: #3B9EFF;
+}
+
+/* Subtle animations */
+@keyframes fadeInFuture {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.03); }
+}
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {

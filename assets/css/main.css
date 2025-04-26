@@ -3617,7 +3617,34 @@ input, select, textarea {
   padding: 40px 20px;
   margin-top: 20px;
 }
+/* Behind the Scenes Platform Layout */
+.platform-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+}
 
+.platform-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.platform-logo {
+  width: 50px;
+  height: auto;
+}
+
+.platform-description h2 {
+  margin-bottom: 10px;
+  color: #3B9EFF;
+}
+
+.platform-description p {
+  font-size: 1.05rem;
+  color: #cccccc;
+}
 /* Subtle animations */
 @keyframes fadeInFuture {
   0% { opacity: 0; transform: translateY(30px); }

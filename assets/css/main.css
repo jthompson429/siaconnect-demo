@@ -3611,6 +3611,12 @@ input, select, textarea {
 .future-section .button.special:hover {
   background-color: #3B9EFF;
 }
+.role-highlight {
+  background: rgba(17, 25, 135, 0.05); /* Soft hint of your SIAConnect blue */
+  border-radius: 12px;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
 
 /* Subtle animations */
 @keyframes fadeInFuture {

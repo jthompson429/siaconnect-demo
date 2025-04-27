@@ -356,7 +356,30 @@
     <p>&copy; 2025 SIAConnect. Built for the future. Ready right now.</p>
   </div>
 </footer>
-		
+		<script>
+// Fade-in animation for sections
+const faders = document.querySelectorAll('.fade-in-section');
+
+const appearOptions = {
+  threshold: 0.1
+};
+
+const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add('is-visible');
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+}, appearOptions);
+
+faders.forEach(fader => {
+  appearOnScroll.observe(fader);
+});
+</script>
+
 <!-- Scroll to Top Button -->
 <a href="#hero" class="scroll-top-button" id="scrollTopBtn">&#8679;</a>
 

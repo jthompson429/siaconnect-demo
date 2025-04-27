@@ -3824,7 +3824,7 @@ body.scrolled .scroll-top-button {
 /* SIAConnect Future Section */
 .future-section {
   background: #000000;
-  padding: 10px 20px;
+  padding: 100px 20px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -3837,9 +3837,9 @@ body.scrolled .scroll-top-button {
 }
 
 .glow-image {
-  width: 75%;
+  width: 200px;
   margin-bottom: 30px;
-  animation: pulseGlow 4s infinite ease-in-out;
+  animation: pulseGlow 6s infinite ease-in-out;
 }
 
 .future-section h2 {
@@ -3855,11 +3855,10 @@ body.scrolled .scroll-top-button {
 }
 
 .future-section .button.special {
-  background-color: transparent;
-  border: 1px;
+  background-color: #111987;
+  border: none;
+  padding: 12px 30px;
   font-size: 1em;
-		padding: 20px !important;
-		text-align: center;
   color: #ffffff;
   text-decoration: none;
   border-radius: 6px;
@@ -3869,40 +3868,7 @@ body.scrolled .scroll-top-button {
 .future-section .button.special:hover {
   background-color: #3B9EFF;
 }
-.role-highlight {
-  background: rgba(17, 25, 135, 0.15); /* Soft hint of your SIAConnect blue */
-  border-radius: 12px;
-  padding: 40px 20px;
-  margin-top: 20px;
-}
-/* Behind the Scenes Platform Layout */
-.platform-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-top: 40px;
-}
 
-.platform-item {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.platform-logo {
-  width: 50px;
-  height: auto;
-}
-
-.platform-description h2 {
-  margin-bottom: 10px;
-  color: #3B9EFF;
-}
-
-.platform-description p {
-  font-size: 1.05rem;
-  color: #cccccc;
-}
 /* Subtle animations */
 @keyframes fadeInFuture {
   0% { opacity: 0; transform: translateY(30px); }

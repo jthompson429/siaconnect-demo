@@ -2880,12 +2880,25 @@ input, select, textarea {
 	}
 /* Main Style 1 */
 		.main.style1 {
-			background: #fff;
-			
+			background: #0050b6;
+			color: #ffffff;
 		}
+		
 		.main.style1 a {
 				border-bottom-color: rgba(255, 255, 255, 0.5);
 			}
+			.main.style1 h1, .main.style1 h2, .main.style1 h3, .main.style1 h4, .main.style1 h5, .main.style1 h6, .main.style1 strong, .main.style1 b {
+				color: #ffffff;
+			}
+			
+.main.style2 a:hover {
+					color: #ffffff;
+				}
+			
+			.main.style1 header p {
+				color: #ffffff;
+			}
+			
 /* Main Style 2 */
 		.main.style2 {
 			background-color: #0a0a0a;

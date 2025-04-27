@@ -3183,6 +3183,53 @@ body.scrolled .scroll-top-button {
   }
 }
 
+/* Roadmap Timeline */
+.roadmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.roadmap-step {
+  flex: 1 1 200px;
+  max-width: 300px;
+  padding: 20px;
+}
+
+.roadmap-circle {
+  background-color: #3B9EFF;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roadmap-line {
+  width: 60px;
+  height: 4px;
+  background-color: #3B9EFF;
+  margin: 0 10px;
+}
+
+.roadmap h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.roadmap p {
+  font-size: 0.95rem;
+  color: #cccccc;
+}
+
 /* Header */
 
 	#header {

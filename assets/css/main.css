@@ -3581,7 +3581,7 @@ body.scrolled .scroll-top-button {
 
 					#nav ul li a:hover {
 						color: #0050b6;
-						box-shadow: inset 200px 0 0 0 #ffffff;;
+						box-shadow: inset 200px 0 0 0 #ffffff;
 					}
 
 					#nav ul li a.active {
@@ -3833,7 +3833,7 @@ body.scrolled .scroll-top-button {
 .glow-image {
   width: 75%;
   margin-bottom: 30px;
-  animation: pulseGlow 6s infinite ease-in-out;
+  animation: pulseGlow 4s infinite ease-in-out;
 }
 
 .future-section h2 {

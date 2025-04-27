@@ -3500,6 +3500,21 @@ input, select, textarea {
 					margin-left: 0;
 					padding: 0;
 				}
+				
+				/* Footer Section */
+.site-footer {
+  background-color: #0a0a0a;
+  text-align: center;
+  padding: 40px 20px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin: 0;
+  color: #999;
+}
+
 /* siaconnect-access-section */
 .siaconnect-access-section {
   position: relative;

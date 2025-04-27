@@ -2991,8 +2991,6 @@ input, select, textarea {
 			background-color: #0a0a0a;
 			color: #0050b6;
 			background-attachment: fixed;
-			background-image: url("images/overlay6-white.svg");
-			background-size: cover;
 			padding: 4em 4em 4em 0 ;
 
 		}

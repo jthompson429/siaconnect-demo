@@ -2993,7 +2993,8 @@ input, select, textarea {
 				}
 
 			.main.style3 h1, .main.style3 h2, .main.style3 h3, .main.style3 h4, .main.style3 h5, .main.style3 h6, .main.style3 strong, .main.style3 b {
-				color: #0050b6;
+				  margin-bottom: 10px;
+						color: #3B9EFF;
 			}
 
 			.main.style3 header p {

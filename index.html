@@ -41,7 +41,121 @@
     <a href="#video" class="button">See What’s Possible</a>
   </div>
 </section>		
-		
+		<!-- SIAConnect vs Current Method Comparison Table -->
+<section class="section">
+  <h2>How SIAConnect Compares</h2>
+  <div class="comparison-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Ability / Action</th>
+          <th>Current Method</th>
+          <th class="highlight-sia">SIAConnect</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Search Documents</td>
+          <td>✅ SharePoint search (inconsistent)</td>
+          <td class="highlight-sia">✅ Targeted keyword search inside Teams</td>
+        </tr>
+        <tr>
+          <td>Search Knowledge Base Articles</td>
+          <td>✅ Bamboo KB (difficult to navigate)</td>
+          <td class="highlight-sia">✅ Integrated Dataverse KB with conversational search</td>
+        </tr>
+        <tr>
+          <td>Search Training Videos</td>
+          <td>❌ Manual Vimeo browsing</td>
+          <td class="highlight-sia">✅ Search Vimeo directly inside Teams</td>
+        </tr>
+        <tr>
+          <td>Submit Document Request</td>
+          <td>✅ Manual Jira or email entry</td>
+          <td class="highlight-sia">✅ Conversational request flow in Teams</td>
+        </tr>
+        <tr>
+          <td>Track Request Status</td>
+          <td>✅ Login to Jira and search manually</td>
+          <td class="highlight-sia">✅ Instant status update via chat</td>
+        </tr>
+        <tr>
+          <td>Unit Conversion Utility</td>
+          <td>❌ Use external websites</td>
+          <td class="highlight-sia">✅ Built-in quick converter</td>
+        </tr>
+        <tr>
+          <td>Random Tip of the Day</td>
+          <td>❌ No system in place</td>
+          <td class="highlight-sia">✅ Daily tips to boost engagement</td>
+        </tr>
+        <tr>
+          <td>Favorite/Bookmark Resources</td>
+          <td>❌ Browser bookmarks (manual)</td>
+          <td class="highlight-sia">✅ Save favorites with one click</td>
+        </tr>
+        <tr>
+          <td>Field Training Access (Future)</td>
+          <td>✅ QuickBase enrollment (limited automation)</td>
+          <td class="highlight-sia">✅ Future planned integrated enrollment</td>
+        </tr>
+        <tr>
+          <td>Personalized Assistance</td>
+          <td>❌ Static portals and manual search</td>
+          <td class="highlight-sia">✅ Behavior-based personalized help</td>
+        </tr>
+        <tr>
+          <td>Error Code Lookup (Help Desk)</td>
+          <td>✅ Spreadsheet manual lookup</td>
+          <td class="highlight-sia">✅ Searchable error code database</td>
+        </tr>
+        <tr>
+          <td>Surface "What's New" Content</td>
+          <td>✅ Email announcements (scattered)</td>
+          <td class="highlight-sia">✅ Centralized "What's New" feed</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<style>
+  .comparison-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    animation: fadeInTable 1.5s ease;
+  }
+  .comparison-table th, .comparison-table td {
+    padding: 16px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+    color: #ccc;
+  }
+  .comparison-table th {
+    background-color: #111987;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .comparison-table td {
+    background-color: #1c1c1c;
+  }
+  .highlight-sia {
+    background-color: rgba(59, 158, 255, 0.08);
+    color: #ffffff;
+    font-weight: 600;
+    transition: background-color 0.6s ease;
+  }
+  .highlight-sia:hover {
+    background-color: rgba(59, 158, 255, 0.15);
+  }
+
+  @keyframes fadeInTable {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+</style>
 					
 		<!-- Demo Video Section -->
 		<section id="video" class="main style2 fade-in-section">

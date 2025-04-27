@@ -3065,8 +3065,8 @@ input, select, textarea {
 			/* Button Standardization */
 .button {
   display: inline-block;
-  padding: 30px 30px;
-  background-color: #111987;
+  padding: 12px 30px;
+  background-color: #0a0a0a;
   color: #0050b6;
   font-size: 1rem;
   border-radius: 6px;
@@ -3075,7 +3075,8 @@ input, select, textarea {
 }
 
 .button:hover {
-  background-color: #3B9EFF;
+  background-color: #0050b6;
+		color: #ffffff;
   transform: translateY(-2px);
 }
 
@@ -3086,7 +3087,8 @@ input, select, textarea {
 }
 
 .button.special:hover {
-  background-color: #63b5ff;
+  background-color: #0050b6;
+		color: #ffffff;
 }
 /* Scroll to Top Button */
 .scroll-top-button {

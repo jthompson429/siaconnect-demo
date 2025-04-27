@@ -3088,6 +3088,34 @@ input, select, textarea {
 .button.special:hover {
   background-color: #63b5ff;
 }
+/* Scroll to Top Button */
+.scroll-top-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #3B9EFF;
+  color: white;
+  font-size: 24px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s, transform 0.4s;
+  z-index: 999;
+}
+
+.scroll-top-button:hover {
+  background-color: #63b5ff;
+  transform: translateY(-4px);
+}
+
+/* Show button after scrolling */
+body.scrolled .scroll-top-button {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 /* Hero Section */
 .hero-section {
   position: relative;
@@ -3140,6 +3168,19 @@ input, select, textarea {
 @keyframes fadeInHero {
   0% { opacity: 0; transform: translateY(30px); }
   100% { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  .button {
+    padding: 10px 24px;
+    font-size: 0.9rem;
+  }
 }
 
 /* Header */

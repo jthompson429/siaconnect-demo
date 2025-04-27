@@ -2878,6 +2878,7 @@ input, select, textarea {
 	.main {
 		padding: 6em 0 4em 0 ;
 	}
+	
 /* Main Style 1 */
 		.main.style1 {
 			position: relative;
@@ -2990,12 +2991,12 @@ input, select, textarea {
 /* Main Style 3 */
 
 			.main.style3 {
-			background-color: #ffffff;
+			background-color: #0a0a0a;
 			color: #0050b6;
 			background-attachment: fixed;
 			background-image: url("images/overlay6-white.svg");
 			background-size: cover;
-			padding: 4em 0 4em 0 ;
+			padding: 4em 4em 4em 0 ;
 
 		}
 
@@ -3092,7 +3093,7 @@ input, select, textarea {
   transition: background-color 0.3s ease, transform 0.3s ease;
 		letter-spacing: 0.125em;
 		line-height: 2.75em;
-		padding: 12px 24px;
+		padding: 12px 24px !important;
 		text-align: center;
 		text-indent: 0.125em;
 		text-transform: uppercase;

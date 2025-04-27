@@ -3062,6 +3062,32 @@ input, select, textarea {
 			.main.style3 .icon.major {
 				color: #4a87d3;
 			}
+			/* Button Standardization */
+.button {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #111987;
+  color: #ffffff;
+  font-size: 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3B9EFF;
+  transform: translateY(-2px);
+}
+
+/* Special Button Variant (e.g., in Hero) */
+.button.special {
+  background-color: #3B9EFF;
+  color: #ffffff;
+}
+
+.button.special:hover {
+  background-color: #63b5ff;
+}
 /* Hero Section */
 .hero-section {
   position: relative;

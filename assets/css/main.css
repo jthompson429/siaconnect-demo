@@ -2880,6 +2880,8 @@ input, select, textarea {
 	}
 /* Main Style 1 */
 		.main.style1 {
+			position: relative;
+  background: linear-gradient(145deg, #ffffff 0%, #0050b6 20%);
 			background: #0050b6;
 			color: #ffffff;
 		}
@@ -3180,7 +3182,7 @@ body.scrolled .scroll-top-button {
 /* Hero Section */
 .hero-section {
   position: relative;
-  background: linear-gradient(145deg, #0050b6 0%, #000000 20%, #0a0a0a 0%);
+  background: linear-gradient(145deg, #0050b6 0%, #000000 20%);
   color: white;
   text-align: center;
   padding: 160px 20px 100px;

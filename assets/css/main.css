@@ -3093,8 +3093,8 @@ input, select, textarea {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: #3B9EFF;
-  color: 0050b6;
+  background-color: #0050b6;
+  color: #ffffff;
   font-size: 24px;
   padding: 10px 14px;
   border-radius: 50%;
@@ -3106,7 +3106,7 @@ input, select, textarea {
 }
 
 .scroll-top-button:hover {
-  background-color: #63b5ff;
+  background-color: #0050b6;
   transform: translateY(-4px);
 }
 
@@ -3119,7 +3119,7 @@ body.scrolled .scroll-top-button {
 /* Hero Section */
 .hero-section {
   position: relative;
-  background: linear-gradient(145deg, #0a0a0a 0%, #111987 50%);
+  background: linear-gradient(145deg, #0050b6 0%, #0a0a0a 50%);
   color: white;
   text-align: center;
   padding: 160px 20px 100px;

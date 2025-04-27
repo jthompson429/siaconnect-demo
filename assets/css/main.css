@@ -3182,6 +3182,30 @@ body.scrolled .scroll-top-button {
     font-size: 0.9rem;
   }
 }
+#deployment {
+  background: #0a0a0a;
+  color: #cccccc;
+  padding: 100px 20px;
+  text-align: left;
+}
+
+#deployment h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+#deployment h2 {
+  font-size: 1.8rem;
+  margin-top: 40px;
+  color: #3B9EFF;
+}
+
+#deployment p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
 
 /* Roadmap Timeline */
 .roadmap {

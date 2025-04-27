@@ -3119,7 +3119,7 @@ body.scrolled .scroll-top-button {
 /* Hero Section */
 .hero-section {
   position: relative;
-  background: linear-gradient(145deg, #0050b6 0%, #0a0a0a 70%);
+  background: linear-gradient(145deg, #0050b6 0%, #0a0a0a 30%);
   color: white;
   text-align: center;
   padding: 160px 20px 100px;

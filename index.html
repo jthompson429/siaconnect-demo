@@ -301,6 +301,17 @@
 		
 <!-- Scroll to Top Button -->
 <a href="#hero" class="scroll-top-button" id="scrollTopBtn">&#8679;</a>
+
+<script>
+// Show Scroll to Top button when scrolling down
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 400) {
+    document.body.classList.add('scrolled');
+  } else {
+    document.body.classList.remove('scrolled');
+  }
+});
+</script>
 	<script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.scrollex.min.js"></script>
 <script src="assets/js/browser.min.js"></script>

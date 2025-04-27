@@ -3101,6 +3101,14 @@ input, select, textarea {
 		text-align: center;
 }
 
+/* Divider line between platforms */
+.platform-divider {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.08);
+  margin: 20px 0;
+}
+
 /* Special Button Variant (e.g., in Hero) */
 .button.special {
   display: inline-block;

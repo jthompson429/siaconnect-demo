@@ -3118,6 +3118,7 @@ input, select, textarea {
 		color: #ffffff !important;
 		border: 2px solid #ffffff !important;
 }
+
 /* Scroll to Top Button */
 .scroll-top-button {
   position: fixed;
@@ -3149,7 +3150,7 @@ body.scrolled .scroll-top-button {
 /* Hero Section */
 .hero-section {
   position: relative;
-  background: linear-gradient(145deg, #0050b6 0%, #000000 20%);
+  background: linear-gradient(145deg, #0050b6 0%, #000000 20%, #0050b6 0%);
   color: white;
   text-align: center;
   padding: 160px 20px 100px;
@@ -3183,6 +3184,7 @@ body.scrolled .scroll-top-button {
 .hero-section .button.special {
   background-color: transparent;
   color: #0050b6 !important;
+		border: 2px solid #0050b6 !important;
   font-size: 0.9em;
 		font-weight: 400;
   border-radius: 4px;
@@ -3201,6 +3203,7 @@ body.scrolled .scroll-top-button {
 .hero-section .button.special:hover {
   background-color: #0050b6 !important;
 		color: #ffffff !important;
+		border: 2px solid #ffffff !important;
 }
 
 /* Hero Animations */

@@ -3822,7 +3822,7 @@ body.scrolled .scroll-top-button {
   background-color: #3B9EFF;
 }
 .role-highlight {
-  background: rgba(17, 25, 135, 0.05); /* Soft hint of your SIAConnect blue */
+  background: rgba(17, 25, 135, 0.15); /* Soft hint of your SIAConnect blue */
   border-radius: 12px;
   padding: 40px 20px;
   margin-top: 20px;

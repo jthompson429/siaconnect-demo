@@ -3544,12 +3544,13 @@ h1 {
 		color: #ffffff;
 		position: relative;
 		width: auto;
-		padding: .1em;
+		padding: .2em;
 		background-color: #0050b6;
 		border-top-left-radius: 0em;
 		border-top-right-radius: 0em;
 		cursor: default;
 		text-align: center;
+		text-decoration: none;
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3592,30 +3593,29 @@ h1 {
 		}
 
 			#nav ul li {
-				-moz-transition: margin 0.2s ease;
-				-webkit-transition: margin 0.2s ease;
-				-ms-transition: margin 0.2s ease;
-				transition: margin 0.2s ease;
+				-moz-transition: margin 0.4s ease;
+				-webkit-transition: margin 0.4s ease;
+				-ms-transition: margin 0.4s ease;
+				transition: margin 0.4s ease;
 				display: inline-block;
-				margin: 0 0.15em;
-				padding: 0;
-				vertical-align: middle;
+				margin: 0 1.25em;
+				padding: 4.5;
+				vertical-align: stretch;
 			}
 
 				#nav ul li a {
-					line-height: 1.5;
-					box-shadow: inset 0 0 0 0 #0050b6;
+					box-shadow: inset 0 0 0 0 #ffffff;
+					color: #ffffff;
 					padding: 0 .25rem;
 					margin: 0 -.25rem;
-					border: 0;
-					border-radius: 2px;
-					color: #ffffff;
-					transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+					transition: color .6s ease-in-out, box-shadow .5s ease-in-out;
+					text-decoration: none;
+					border-bottom: 0;
 				}
 
 					#nav ul li a:hover {
-						color: #ffffff;
-						box-shadow: inset 200px 0 0 0 #ffffff;
+						color: #0050b6;
+						box-shadow: inset 200px 0 0 0 #ffffff;;
 					}
 
 					#nav ul li a.active {
@@ -3641,9 +3641,17 @@ h1 {
 					font-size: 0.9em;
 				}
 
-		
+		@media screen and (max-width: 736px) {
 
+			#nav {
+				display: none;
+			}
 
+				#nav + #main {
+					padding-top: 0;
+				}
+
+		}
 
 /* Footer */
 
@@ -3786,6 +3794,7 @@ h1 {
   text-align: center;
   padding: 80px 0;
 }
+
 .siaconnect-access-section h1,
 .siaconnect-access-section h2 {
   text-align: left;

@@ -3073,9 +3073,9 @@ input, select, textarea {
   display: inline-block;
   background-color: transparent;
   color: #0050b6 !important;
-		border: 1px solid #0050b6 !important;
+	border: 2px solid #0050b6 !important;
   font-size: 0.9em;
-		font-weight: 300;
+		font-weight: 400;
   text-decoration: none;
 		padding: 2em;
 		text-align: center;
@@ -3099,7 +3099,7 @@ input, select, textarea {
   display: inline-block;
   background-color: transparent;
   color: #0050b6 !important;
-		border: 1px solid #0050b6 !important;
+		border: 2px solid #0050b6 !important;
   font-size: 0.9em;
   border-radius: 4px;
   text-decoration: none;
@@ -3155,56 +3155,6 @@ body.scrolled .scroll-top-button {
   margin: 0 auto;
   animation: fadeInHero 1.8s ease;
 }
-/* sliding diag background */
-
-
-.bg-hero {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #0a0a0a 20%, #0050b6 20%);
-  bottom:0;
-  left:-20%;
-  opacity:.5;
-  position:fixed;
-  right:-20%;
-  top:0;
-  z-index:-1;
-}
-
-.bg2-hero {
-  animation-direction:alternate-reverse;
-  animation-duration:6s;
-}
-
-.bg3-hero {
-  animation-duration:7s;
-}
-
-.content {
-  background-color:#0a0a0a;
-  border-radius:.25em;
-  box-shadow:0 0 .25em rgba(0,0,0,.25);
-  box-sizing:border-box;
-  left:50%;
-  padding:10vmin;
-  position:fixed;
-  text-align:center;
-  top:50%;
-  transform:translate(-50%, -50%);
-}
-
-h1 {
-  font-family:monospace;
-}
-
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}
-
 
 .hero-logo {
   width: 140px;
@@ -3235,7 +3185,8 @@ h1 {
 }
 
 .hero-section .button.special:hover {
-  background-color: #63b5ff;
+  background-color: #0050b6;
+	border: 2px solid #0050b6 !important;
 }
 
 /* Hero Animations */

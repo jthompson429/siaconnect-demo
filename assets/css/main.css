@@ -3832,12 +3832,12 @@ body.scrolled .scroll-top-button {
 .future-section h2 {
   font-size: 2.5em;
   color: #ffffff;
-  margin-bottom: 40px;
+  margin-bottom: 2px;
 }
 .future-section h3 {
   font-size: 2em;
   color: #ffffff;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .future-section p {
@@ -3873,6 +3873,63 @@ body.scrolled .scroll-top-button {
   0%, 100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.85; transform: scale(1.10); }
 }
+
+/* SIAConnect Demo Video Section */
+.demo-section {
+  background: #0a0a0a0;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.demo-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInFuture 1.8s ease;
+}
+
+.demo-section h2 {
+  font-size: 2.5em;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+.demo-section h3 {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.demo-section p {
+  font-size: 1.2em;
+  color: #cccccc;
+  margin-bottom: 80px;
+}
+
+.demo-section .button.special {
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.demo-section .button.special:hover {
+  color: #111987;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+}
+
+
+/* Subtle animations */
+@keyframes fadeInFuture {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+
 
 /* XLarge */
 

@@ -3820,9 +3820,9 @@ body.scrolled .scroll-top-button {
 }
 
 .glow-image {
-  width: 200px;
+  width: 50%;
   margin-bottom: 30px;
-  animation: pulseGlow 6s infinite ease-in-out;
+  animation: pulseGlow 4s infinite ease-in-out;
 }
 
 .future-section h2 {
@@ -3862,7 +3862,7 @@ body.scrolled .scroll-top-button {
 
 @keyframes pulseGlow {
   0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.85; transform: scale(1.03); }
+  50% { opacity: 0.85; transform: scale(1.10); }
 }
 
 /* XLarge */

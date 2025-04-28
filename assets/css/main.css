@@ -3146,7 +3146,7 @@ body.scrolled .scroll-top-button {
 /* Hero Section */
 .hero-section {
   position: relative;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #000000, #0a0a0a, #0050b6, #23d5ab);
 	animation: gradient 15s ease infinite;
 }
 

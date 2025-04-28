@@ -3599,17 +3599,7 @@ body.scrolled .scroll-top-button {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 736px) {
 
-			#nav {
-				display: none;
-			}
-
-				#nav + #main {
-					padding-top: 0;
-				}
-
-		}
 
 /* Footer */
 

@@ -3157,9 +3157,6 @@ body.scrolled .scroll-top-button {
   animation: fadeInHero 1.8s ease;
 }
 /* sliding diag background */
-html {
-  height:100%;
-}
 
 
 .bg-hero {
@@ -3184,7 +3181,7 @@ html {
 }
 
 .content {
-  background-color:rgba(255,255,255,.8);
+  background-color:#0a0a0a;
   border-radius:.25em;
   box-shadow:0 0 .25em rgba(0,0,0,.25);
   box-sizing:border-box;

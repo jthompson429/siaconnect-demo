@@ -3820,7 +3820,7 @@ body.scrolled .scroll-top-button {
 }
 
 .glow-image {
-  width: 50%;
+  width: 350px;
   margin-bottom: 30px;
   animation: pulseGlow 4s infinite ease-in-out;
 }

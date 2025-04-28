@@ -3838,19 +3838,21 @@ body.scrolled .scroll-top-button {
 }
 
 .future-section .button.special {
-  background-color: #111987;
-  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
   padding: 12px 30px;
-  font-size: 1em;
-  color: #ffffff;
-  text-decoration: none;
   border-radius: 6px;
+  text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 .future-section .button.special:hover {
-  background-color: #3B9EFF;
+  color: #111987;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
 }
+
 
 /* Subtle animations */
 @keyframes fadeInFuture {

@@ -3787,7 +3787,7 @@ body.scrolled .scroll-top-button {
 
 /* Content container above SVG */
 .siaconnect-access-section .container {
-max-width: 800px;
+max-width: 100%;
   margin: 0 auto;
   animation: fadeInFuture 1.8s ease;
   position: relative;
@@ -3805,6 +3805,7 @@ max-width: 800px;
 
 .mockup-column {
   max-width: 400px;
+	padding: 40px;
 }
 
 .mockup-column img {
@@ -3825,6 +3826,7 @@ max-width: 800px;
 .mockup-frame img {
   max-height: 100%;
   width: auto;
+	margin-bottom: 30px;
 }
 
 /* SIAConnect Future Section */

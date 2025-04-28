@@ -3188,8 +3188,9 @@ body.scrolled .scroll-top-button {
 }
 
 .hero-section .button.special:hover {
-  background-color: #0050b6 !important;
-	border: 2px solid #0050b6 !important;
+  color: #111987;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
 }
 
 /* Hero Animations */

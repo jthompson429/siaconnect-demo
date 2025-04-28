@@ -3468,6 +3468,7 @@ body.scrolled .scroll-top-button {
 	body.is-preload #header:after {
 		opacity: 1;
 	}
+	
 .circuit-grid {
   position: absolute;
   top: 0;
@@ -3478,6 +3479,7 @@ body.scrolled .scroll-top-button {
   pointer-events: none;
   opacity: 0.25;
 }
+
 /* Nav */
 
 	#nav {
@@ -3560,7 +3562,7 @@ body.scrolled .scroll-top-button {
 
 					#nav ul li a:hover {
 						color: #ffffff;
-						box-shadow: inset 200px 0 0 0 #ffffff;;
+						box-shadow: inset 200px 0 0 0 #ffffff;
 					}
 
 					#nav ul li a.active {

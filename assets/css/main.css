@@ -3160,7 +3160,7 @@ body.scrolled .scroll-top-button {
 }
 
 .hero-logo {
-  width: 140px;
+  width: 200px;
   margin-bottom: 30px;
   opacity: 0.9;
 }
@@ -3170,11 +3170,15 @@ body.scrolled .scroll-top-button {
   margin-bottom: 20px;
   font-weight: bold;
 }
-
+.hero-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
 .hero-section p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #cccccc;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .hero-section .button.special {

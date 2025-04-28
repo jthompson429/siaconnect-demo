@@ -3144,33 +3144,17 @@ body.scrolled .scroll-top-button {
 }
 
 /* Hero Section */
-.hero-section {
+hero-section {
   position: relative;
+  background: linear-gradient(145deg, #0a0a0a 0%, #111987 100%);
+  color: white;
   text-align: center;
-  overflow: hidden;
-	color: white;
   padding: 160px 20px 100px;
-}
-
-.hero-bg {
-	background: linear-gradient(-45deg, #000000, #0a0a0a, #0050b6, #0a0a0a);
-	animation: gradient 7s ease infinite;
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-
+  overflow: hidden;
 }
 
 .hero-container {
-  max-width: 100%;
+  max-width: 800px;
   margin: 0 auto;
   animation: fadeInHero 1.8s ease;
 }

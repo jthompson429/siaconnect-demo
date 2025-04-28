@@ -3083,6 +3083,7 @@ input, select, textarea {
 
 .button:hover {
   color: #ffffff;
+	border: 2px solid #ffffff !important;
 	
 }
 
@@ -3110,6 +3111,7 @@ input, select, textarea {
 
 .button.special:hover {
   background-color: transparent;
+	border: 2px solid #ffffff !important;
 		color: #ffffff;
 }
 
@@ -3146,7 +3148,6 @@ body.scrolled .scroll-top-button {
   position: relative;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	animation: gradient 15s ease infinite;
-	height: 100vh;
 }
 
 @keyframes gradient {

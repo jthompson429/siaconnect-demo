@@ -3276,6 +3276,7 @@ body.scrolled .scroll-top-button {
   }
 		
 }
+
 #deployment {
   background: #1b1e30;
   color: #58a6ff;
@@ -3348,7 +3349,79 @@ body.scrolled .scroll-top-button {
   color: #cccccc;
 }
 
+/* Benefit Section */
+.benefit-section {
+  position: relative;
+  background: #343865;
+  color: white;
+  text-align: center;
+  padding: 160px 20px 100px;
+  overflow: hidden;
+}
 
+.benefit-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInHero 1.8s ease;
+}
+
+.benefit-logo {
+  width: 200px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.benefit-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.benefit-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.benefit-section p {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-bottom: 80px;
+}
+
+.benefit-section .button.special {
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.benefit-section .button.special:hover {
+  color: #111987;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+}
+
+/* benefit Animations */
+@keyframes fadeInbenefit {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 768px) {
+  .benefit-section h1 {
+    font-size: 2.2rem;
+  }
+  .benefit-section p {
+    font-size: 1.2rem;
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+		
+}
 /* Header */
 
 	#header {

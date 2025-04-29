@@ -4047,6 +4047,32 @@ max-width: 100%;
 	background-color: #ffffff;
 	border: 2px solid #ffffff;
 }
+/* Fix for Comparison Table Section */
+table.comparison-table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  table-layout: auto;
+}
+
+table.comparison-table thead th,
+table.comparison-table td {
+  padding: 16px 24px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 768px) {
+  table.comparison-table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #0b0b0b; /* Slight background on mobile scroll */
+    border-radius: 12px;
+  }
+}
+
 .comparison-table table {
     width: 80%;
     border-collapse: collapse;

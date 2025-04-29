@@ -3604,9 +3604,9 @@ body.scrolled .scroll-top-button {
   nav {
     display: flex;
     flex-wrap: wrap;
+				color: #ffffff;
     justify-content: center;
     padding: 10px 0;
-    z-index: 1000;
   }
 
   nav a {

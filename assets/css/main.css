@@ -3997,58 +3997,6 @@ max-width: 100%;
 }
 
 /* SIAConnect Comparison Section */
-.comparison-section {
-  background: #oaoaoa;
-  padding: 100px 20px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.comparison-container {
-  max-width: 800px;
-  margin: 0 auto;
-  animation: fadeInFuture 1.8s ease;
-}
-.comparison-section h1 {
-  font-size: 3em;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-
-.comparison-section h2 {
-  font-size: 2.5em;
-  color: #ffffff;
-  margin-bottom: 2px;
-}
-.comparison-section h3 {
-  font-size: 2em;
-  color: #ffffff;
-  margin-bottom: 30px;
-}
-
-.comparison-section p {
-  font-size: 1.2em;
-  color: #cccccc;
-  margin-bottom: 80px;
-}
-
-.comparison .button.special {
-  background-color: transparent;
-  color: white;
-  font-size: 1rem;
-  padding: 12px 30px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.comparison-section .button.special:hover {
-  color: #111987;
-	background-color: #ffffff;
-	border: 2px solid #ffffff;
-}
-/* Fix for Comparison Table Section */
 /* Comparison Table Styling */
 table.comparison-table {
   width: 100%;
@@ -4062,14 +4010,17 @@ table.comparison-table {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
+/* Table Header Styling */
 table.comparison-table thead th {
   background-color: #1a1a1a;
   color: #ffffff;
   font-weight: 700;
   padding: 16px 24px;
   text-align: left;
+  border-bottom: 2px solid rgba(17, 25, 135, 0.5); /* Glowing divider */
 }
 
+/* Table Body Cell Styling */
 table.comparison-table tbody td {
   padding: 16px 24px;
   color: #cccccc;
@@ -4078,9 +4029,33 @@ table.comparison-table tbody td {
   word-wrap: break-word;
 }
 
+/* Hover Effect for Table Rows */
 table.comparison-table tbody tr:hover {
   background-color: #1e1e1e;
   transition: background-color 0.3s ease;
+}
+
+/* Highlight SIAConnect Column */
+table.comparison-table td:last-child,
+table.comparison-table th:last-child {
+  background-color: rgba(17, 25, 135, 0.15);
+}
+
+/* Mobile Scroll Friendly */
+@media screen and (max-width: 768px) {
+  table.comparison-table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #0b0b0b;
+    border-radius: 12px;
+  }
+}
+
+/* Optional: Wrapper to Control Table Padding */
+.comparison-wrapper {
+  overflow-x: auto;
+  padding: 0 20px;
 }
 
 @media screen and (max-width: 768px) {

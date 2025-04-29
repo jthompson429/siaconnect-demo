@@ -3598,7 +3598,37 @@ body.scrolled .scroll-top-button {
 				#nav.alt ul li a {
 					font-size: 0.9em;
 				}
+				
+nav a {
+  font-size: 1rem;
+  margin: 5px 15px;
+  padding: 5px 0;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background: #3B9EFF;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
 
+nav a:hover {
+  color: #3B9EFF;
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
 				
 @media screen and (max-width: 736px) {
   nav {
@@ -3606,7 +3636,7 @@ body.scrolled .scroll-top-button {
     flex-wrap: wrap;
 				color: #ffffff;
     justify-content: center;
-    padding: 10px 0;
+    padding: 5px 0;
   }
 
   nav a {

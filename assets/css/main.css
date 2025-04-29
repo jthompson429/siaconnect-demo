@@ -3081,7 +3081,11 @@ input, select, textarea {
   margin: 0 auto;
   animation: fadeInFuture 1.8s ease;
 }
-
+.features-section h1 {
+  font-size: 3em;
+  color: #0050b6;
+  margin-bottom: 2px;
+}
 
 .features-section h2 {
   font-size: 2.5em;

@@ -3277,27 +3277,27 @@ body.scrolled .scroll-top-button {
 		
 }
 #deployment {
-  background: #0a0a0a;
-  color: #cccccc;
+  background: #1b1e30;
+  color: #58a6ff;
   padding: 100px 20px;
   text-align: left;
 }
 
 #deployment h1 {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 40px;
+  font-size: 3rem;
+  margin-bottom: 20px;
   color: #ffffff;
 }
 
 #deployment h2 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   margin-top: 40px;
-  color: #3B9EFF;
+  color: #ffffff;
 }
 
 #deployment p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   line-height: 1.6;
 }
 

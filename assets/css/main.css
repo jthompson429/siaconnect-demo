@@ -4114,6 +4114,11 @@ table.comparison-table tbody tr:hover {
   .comparison-table td {
     background-color: #1c1c1c;
   }
+		.comparison-wrapper {
+  overflow-x: auto;
+  padding: 0 20px;
+}
+
   .highlight-sia {
     background-color: rgba(59, 158, 255, 0.1);
     color: #ffffff;

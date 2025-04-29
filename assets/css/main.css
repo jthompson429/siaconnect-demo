@@ -4048,19 +4048,38 @@ max-width: 100%;
 	border: 2px solid #ffffff;
 }
 /* Fix for Comparison Table Section */
+/* Comparison Table Styling */
 table.comparison-table {
   width: 100%;
   max-width: 100%;
   border-collapse: collapse;
   margin: 0 auto;
   table-layout: auto;
+  background-color: #121212;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
-table.comparison-table thead th,
-table.comparison-table td {
+table.comparison-table thead th {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-weight: 700;
   padding: 16px 24px;
   text-align: left;
+}
+
+table.comparison-table tbody td {
+  padding: 16px 24px;
+  color: #cccccc;
+  vertical-align: middle;
+  border-top: 1px solid #2a2a2a;
   word-wrap: break-word;
+}
+
+table.comparison-table tbody tr:hover {
+  background-color: #1e1e1e;
+  transition: background-color 0.3s ease;
 }
 
 @media screen and (max-width: 768px) {
@@ -4068,8 +4087,8 @@ table.comparison-table td {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    background-color: #0b0b0b; /* Slight background on mobile scroll */
     border-radius: 12px;
+    background-color: #0b0b0b;
   }
 }
 

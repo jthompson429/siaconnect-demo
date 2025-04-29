@@ -3599,6 +3599,7 @@ body.scrolled .scroll-top-button {
 					font-size: 0.9em;
 				}
 				
+/* Fancy Hover Glow for Nav Links */
 nav a {
   font-size: 1rem;
   margin: 5px 15px;
@@ -3608,6 +3609,7 @@ nav a {
   position: relative;
   transition: color 0.3s ease;
 }
+
 nav a::after {
   content: '';
   position: absolute;
@@ -3641,7 +3643,6 @@ nav a:hover::after {
 
   nav a {
     font-size: 1rem;
-    margin: 2px 2px;
     padding: 2px 0;
     text-decoration: none;
   }

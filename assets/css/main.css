@@ -3871,7 +3871,7 @@ max-width: 100%;
 /* SIAConnect Future Section */
 .future-section {
   background: #000000;
-  padding: 100px 20px;
+  padding: 60px 20px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -3903,7 +3903,7 @@ max-width: 100%;
 .future-section p {
   font-size: 1.2em;
   color: #cccccc;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .future-section .button.special {

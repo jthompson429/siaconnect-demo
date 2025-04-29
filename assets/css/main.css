@@ -3599,17 +3599,27 @@ body.scrolled .scroll-top-button {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 736px) {
+				
+@media screen and (max-width: 736px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 1000;
+  }
 
-			#nav {
-				display: flex;
-			}
-
-				#nav + #main {
+  nav a {
+    font-size: 1rem;
+    margin: 5px 10px;
+    padding: 5px 0;
+    text-decoration: none;
+  }
+		#nav + #main {
 					padding-top: 0;
 				}
+}
 
-		}
 
 /* Footer */
 

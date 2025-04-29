@@ -3066,7 +3066,65 @@ input, select, textarea {
 			.main.style3 .icon.major {
 				color: #4a87d3;
 			}
-			/* Button Standardization */
+
+/* SIAConnect Features Section */
+.features-section {
+  background: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.features-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInFuture 1.8s ease;
+}
+
+
+.features-section h2 {
+  font-size: 2.5em;
+  color: #0050b6;
+  margin-bottom: 2px;
+}
+.features-section h3 {
+  font-size: 2em;
+  color: #0050b6;
+  margin-bottom: 30px;
+}
+
+.features-section p {
+  font-size: 1.2em;
+  color: #0050b6;
+  margin-bottom: 20px;
+}
+
+.features-section .button.special {
+  background-color: transparent;
+  color: #0050b6;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.features-section .button.special:hover {
+  color: #111987;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+}
+
+
+/* Subtle animations */
+@keyframes fadeInFetures {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+
+/* Button Standardization */
 .button {
   display: inline-block;
   background-color: transparent;

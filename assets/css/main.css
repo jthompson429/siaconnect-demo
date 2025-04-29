@@ -3843,7 +3843,7 @@ nav a:hover::after {
 
 /* siaconnect-access-section */
 .siaconnect-access-section {
-  background: #000000;
+  background: #22243d;
   padding: 100px 20px;
   text-align: center;
   position: relative;
@@ -3929,7 +3929,7 @@ max-width: 100%;
 
 /* SIAConnect Future Section */
 .future-section {
-  background: #000000;
+  background: #0A0a0a;
   padding: 60px 20px;
   text-align: center;
   position: relative;
@@ -3995,7 +3995,7 @@ max-width: 100%;
 
 /* SIAConnect Demo Video Section */
 .demo-section {
-  background: #111987;
+  background: #343865;
   padding: 100px 20px;
   text-align: center;
   position: relative;

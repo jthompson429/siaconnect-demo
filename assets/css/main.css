@@ -4139,7 +4139,7 @@ border-radius: 12px;
 }
 
 .mockup-column {
-  max-width: 500px;
+  max-width: 400px;
 	padding: 20px;
 }
 
@@ -4151,7 +4151,7 @@ border-radius: 12px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }
 .mockup-frame {
-  height: 500px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;

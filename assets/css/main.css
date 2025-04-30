@@ -3356,10 +3356,10 @@ body.scrolled .scroll-top-button {
 
 /* Benefit Section */
 .benefit-section {
-  position: relative;
   background: #22243d;
-padding: 100px 20px;
-  text-align: left;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
   overflow: hidden;
 }
 
@@ -3367,12 +3367,6 @@ padding: 100px 20px;
   max-width: 800px;
   margin: 0 auto;
   animation: fadeInbenefit 1.8s ease;
-}
-
-.benefit-logo {
-  width: 200px;
-  margin-bottom: 30px;
-  opacity: 0.9;
 }
 
 .benefit-section h1 {
@@ -3482,7 +3476,7 @@ margin-bottom: 5px;
 /* Security Section */
 .security-section {
   background: #2b2f55;
-  padding: 100px 20px;
+  padding: 60px 20px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -3491,7 +3485,6 @@ margin-bottom: 5px;
 .security-container {
   max-width: 800px;
   margin: 0 auto;
-  animation: fadeIndemo 1.8s ease;
 }
 
 .security-section h1 {

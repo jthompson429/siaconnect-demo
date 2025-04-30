@@ -3354,7 +3354,6 @@ body.scrolled .scroll-top-button {
   position: relative;
   background: #2b2f55;
   color: white;
-  text-align: center;
   padding: 100px 20px;
   overflow: hidden;
 }
@@ -3373,18 +3372,22 @@ body.scrolled .scroll-top-button {
 
 .benefit-section h1 {
   font-size: 3rem;
+		text-align: center;
   margin-bottom: 40px;
 }
 .benefit-section h2 {
   font-size: 2rem;
+		text-align: center;
   margin-bottom: 20px;
 }
 .benefit-section h3 {
   font-size: 2rem;
+		text-align: center;
   margin-bottom: 20px;
 }
 .benefit-section p {
   font-size: 1.2rem;
+		text-align: left;
   color: #cccccc;
   margin-bottom: 80px;
 }

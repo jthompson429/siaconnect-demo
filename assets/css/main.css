@@ -4033,10 +4033,12 @@ max-width: 100%;
   color: #ffffff;
 margin-bottom: 2px;
 }
-.future-section h3 {
+.future-section h3.glow {
   font-size: 2em;
   color: #ffffff;
   margin-bottom: 100px;
+text-align: center;
+ animation: textpulseGlow 3s infinite ease-in-out;
 }
 
 .future-section p {
@@ -4072,7 +4074,10 @@ margin-bottom: 2px;
   0%, 100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.85; transform: scale(1.10); }
 }
-
+@keyframes textpulseGlow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(2.10); }
+}
 /* SIAConnect Demo Video Section */
 .demo-section {
   background: #1a1d38;

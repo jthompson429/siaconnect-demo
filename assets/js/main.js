@@ -26,7 +26,6 @@
 			}, 100);
 		});
 
-	// Scrolly.
-		$('.scrolly').scrolly();
+
 
 })(jQuery);

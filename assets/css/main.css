@@ -3383,7 +3383,7 @@ padding: 100px 20px;
 color: #ffffff; 
 font-size: 2.5rem;
 text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 .benefit-section h3 {
 color: #ffffff; 
@@ -3410,6 +3410,70 @@ text-align: left;
     font-size: 2.2rem;
   }
   .benefit-section p {
+    font-size: 1.5rem;
+margin-bottom: 5px;
+  }
+  
+		
+}
+
+/* Security Section */
+.security-section {
+  position: relative;
+  background: #343865;
+padding: 100px 20px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.security-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInsecurity 1.8s ease;
+}
+
+.security-logo {
+  width: 200px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.security-section h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.security-section h2 {
+color: #ffffff; 
+font-size: 2.5rem;
+text-align: center;
+  margin-bottom: 60px;
+}
+.security-section h3 {
+color: #ffffff; 
+font-size: 2rem;
+text-align: center;
+  margin-bottom: 20px;
+}
+.security-section p {
+  font-size: 1.5rem;
+text-align: left;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+
+/* security Animations */
+@keyframes fadeInsecurity {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 768px) {
+  .security-section h1 {
+    font-size: 2.2rem;
+  }
+  .security-section p {
     font-size: 1.5rem;
 margin-bottom: 5px;
   }
@@ -3915,7 +3979,7 @@ nav a:hover::after {
 /* siaconnect-access-section */
 .siaconnect-access-section {
   position: relative;
-  background: #343865;
+  background: #0a0a0a;
 padding: 100px 20px;
   text-align: left;
   overflow: hidden;
@@ -3931,7 +3995,7 @@ text-align: center;
   font-size: 2.5rem;
 text-align: center;
 color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 .siaconnect-access-section h3 {
   font-size: 2em;

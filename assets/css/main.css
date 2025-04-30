@@ -3357,8 +3357,8 @@ body.scrolled .scroll-top-button {
 .benefit-section {
   position: relative;
   background: #2b2f55;
-  color: white;
-  padding: 100px 20px;
+padding: 100px 20px;
+  text-align: center;
   overflow: hidden;
 }
 

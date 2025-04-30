@@ -3126,7 +3126,7 @@ input, select, textarea {
   100% { opacity: 1; transform: translateY(0); }
 }
 .role-highlight {
-  background: #0050b687
+  background: #0050b687;
   border-radius: 12px;
   padding: 40px 20px;
   margin-top: 20px;

@@ -25,7 +25,9 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
-
+	
+	// Scrolly.
+		$('.scrolly').scrolly();
 
 
 })(jQuery);

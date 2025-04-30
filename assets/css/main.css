@@ -3089,18 +3089,18 @@ input, select, textarea {
 .features-section h2 {
   font-size: 2.5em;
   color: #0050b6;
-  margin-bottom: 60px;
+  margin-bottom: 5px;
 }
 .features-section h3 {
   font-size: 2em;
   color: #0050b6;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .features-section p {
   font-size: 1.2em;
   color: #0050b6;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .features-section .button.special {
@@ -3976,8 +3976,8 @@ max-width: 100%;
 
 .mockup-row {
   display: flex;
-		background: rgba(0, 0, 0, 0.075);
-		border-radius: 4px;
+		background: rgba(0, 0, 0, 0.5);
+		border-radius: 6px;
   align-items: flex-start; /* aligns tops */
   justify-content: center;
   gap: 40px;

@@ -3070,7 +3070,7 @@ input, select, textarea {
 /* SIAConnect Features Section */
 .features-section {
   background: #ffffff;
-  padding: 60px 20px;
+  padding: 60px 60px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -3319,7 +3319,7 @@ body.scrolled .scroll-top-button {
 }
 
 .roadmap-circle {
-  background-color: #3B9EFF;
+  background-color: #111987;
   color: #ffffff;
   font-size: 1.5rem;
   font-weight: bold;
@@ -3335,7 +3335,7 @@ body.scrolled .scroll-top-button {
 .roadmap-line {
   width: 60px;
   height: 4px;
-  background-color: #3B9EFF;
+  background-color: #111987;
   margin: 0 10px;
 }
 

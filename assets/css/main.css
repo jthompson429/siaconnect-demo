@@ -3980,6 +3980,7 @@ nav a:hover::after {
 .siaconnect-access-section {
   position: relative;
   background: #0a0a0a;
+color: #ffffff;
 padding: 100px 20px;
   text-align: left;
   overflow: hidden;
@@ -4032,8 +4033,8 @@ max-width: 100%;
 
 .mockup-row {
   display: flex;
-		background: rgba(0, 0, 0, 0.8);
-		border-radius: 12px;
+background: rgba(0, 0, 0, 0.8);
+border-radius: 12px;
   align-items: flex-start; /* aligns tops */
   justify-content: center;
   gap: 40px;

@@ -4014,38 +4014,33 @@ nav a:hover::after {
 
 /* siaconnect-access-section */
 .siaconnect-access-section {
-  position: relative;
   background: #343865;
-color: #ffffff;
-padding: 100px 20px;
-  text-align: left;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
   overflow: hidden;
 }
 .siaconnect-access-section h1 {
   font-size: 3em;
-text-align: center;
   color: #ffffff;
   margin-bottom: 20px;
 }
 
 .siaconnect-access-section h2 {
-  font-size: 2.5rem;
-text-align: center;
-color: #ffffff;
+  font-size: 2.5em;
+  color: #ffffff;
   margin-bottom: 60px;
 }
 .siaconnect-access-section h3 {
   font-size: 2em;
-text-align: center;
   color: #ffffff;
   margin-bottom: 30px;
 }
 
 .siaconnect-access-section p {
-  font-size: 1.5rem;
-text-align: left;
-  color: #ffffff;
-  margin-bottom: 40px;
+  font-size: 1.2em;
+  color: #cccccc;
+  margin-bottom: 80px;
 }
 
 /* SVG animation overlay */
@@ -4103,7 +4098,7 @@ border-radius: 12px;
   width: auto;
 	margin-bottom: 30px;
 }
-}
+	
 /* SIAConnect Future Section */
 .future-section {
   background: #000000;

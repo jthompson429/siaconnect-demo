@@ -4043,12 +4043,12 @@ border-radius: 12px;
 }
 
 .mockup-column {
-  max-width: 400px;
-	padding: 40px;
+  max-width: 500px;
+	padding: 20px;
 }
 
 .mockup-column img {
-  max-height: 600px; /
+  max-height: 450px; 
   width: auto;
   object-fit: contain;
   border-radius: 12px;

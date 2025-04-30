@@ -7,11 +7,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
+	
+<style>
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+
+</head>
 	<body class="is-preload">
 	
 <nav id="nav">
-<a href="#home">Home</a>
 <a href="#video">What's Possible</a>
 <a href="#benefits">AI Agent Benefits</a>
 <a href="#access">Ways to Access</a>
@@ -25,20 +37,20 @@
 
 		
 <!-- SIAConnect - Future of Knowledge Section -->
-<section id="home" class="future-section">
-		
+<section id="home" class="future-section fade-in-section">
+		<p>What if accessing the knowledge you need — documents, answers, video walkthroughs, request tools — was as simple as messaging a colleague?</p>
 	<div class="future-container">
     <img src="images/siaconnect-glow.png" alt="SIAConnect in your hands" class="glow-image" />
     <h2>The Future of Knowledge</h2>
 	  <h3>Ready for You</h3>
-    <p>What if accessing the knowledge you need — documents, answers, video walkthroughs, request tools — was as simple as messaging a colleague?</p>
+    
 
   </div>
 </section>
 
 		
 <!-- Demo Video Section -->
-		<section id="video" class="demo-section">
+		<section id="video" class="demo-section fade-in-section">
 			<div class="demo-container">
 					<h2>What's Possible</h2>
 				<video style="max-width:100%; height:auto;" controls>
@@ -55,43 +67,47 @@
 				
 					<h2>Benefits of implementing an AI Agent</h2>
 					<h3>Effectively bridges multiple knowledge systems within a single application</h3>
+				</header>
 			<div class="row gtr-150">
 					<div class="col-6 col-12-medium">
-						<p>Consolidates access to disparate information into one seamless interface.</p>					
+						<li>Consolidates access to disparate information into one seamless interface.</li>
 					</div>
 					<div class="col-6 col-12-medium">
 						
-						<p>Streamlines information retrieval and enhances productivity.</p>
+						<li>Streamlines information retrieval and enhances productivity.</li>
 					</div>
 					<div class="col-6 col-12-medium">
 						
-						<p>Integrates seamlessly with Microsoft Teams and other existing applications (e.g., SharePoint).</p>
+						<li>Integrates seamlessly with Microsoft Teams and other existing applications (e.g., SharePoint).</li>
 					</div>
 					<div class="col-6 col-12-medium">
 						
-						<p>Ensures easy access anytime, anywhere for users.</p>
+						<li>Ensures easy access anytime, anywhere for users..</li>
 					</div>
 					<div class="col-12">
 						
-						<p>Adaptable to future changes in business needs and technology.</p>
+						<li>Adaptable to future changes in business needs and technology.</li>
 					</div>
 				</div>
+			</div>
 			</section>
 		
 <!-- AI Security Section -->
 		<section id="security" class="sec-section">
 			<div class="sec-container">
 			<h2>Security & Compliance Considerations</h2>
-
-<p>All user interactions occur within Microsoft Teams or SharePoint (SIA), authenticated via Azure AD.</p>
-<p>No external/public access is enabled or planned.</p>
-<p>All data structures (e.g., KBData, Error Codes) reside in secure Dataverse environments.</p>
+			<ul>
+<li>All user interactions occur within Microsoft Teams or SharePoint (SIA), authenticated via Azure AD.</li>
+<li>Branding, tone, and usage logs align with Responsible AI Practices.</li>
+<li>No external/public access is enabled or planned.</li>
+<li>All data structures (e.g., KBData, Error Codes) reside in secure Dataverse environments.</li>
+</ul>
 </div>
-</section>
+		</section>
 
 		
 <!-- Access Section -->
-<section id="access" class="siaconnect-access-section">
+<section id="access" class="siaconnect-access-section fade-in-section">
 
   <div class="container">
     <h2>Ways to Access SIAConnect</h2>
@@ -120,7 +136,7 @@
 		
 <!-- SIAConnect In Action Section -->
 <section id="features" class="features-section fade-in-section">
-  <div class="features-container">
+  <div class="container">
       <h2>SIAConnect In Action</h2>
 
     <!-- Features -->
@@ -179,8 +195,8 @@
 </section>
 
 <!-- SIAConnect vs Current Method Comparison Table -->
-<section id="comparison" class="main style3 fade-in-section">
-  <div class="container">
+<section id="comparison" class="comparison-section">
+  <div class="comparison-container">
   <h2>How SIAConnect Compares</h2>
     <div class="comparison-wrapper">
       <table class="comparison-table">
@@ -260,7 +276,7 @@
 
 <!-- Behind the Scenes Section (Updated) -->
 <section id="behind-the-scenes" class="behind-the-scenes-section fade-in-section">
-  <div class="container">
+  <div class="behind-the-scenes-container">
       <h2>Behind the Scenes</h2>
       <p>Explore how SIAConnect connects your tools and teams.</p>
 
@@ -460,7 +476,7 @@ window.addEventListener('scroll', function() {
 });
 </script>
 	<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
 <script src="assets/js/browser.min.js"></script>
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>

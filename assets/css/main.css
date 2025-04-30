@@ -3358,7 +3358,7 @@ body.scrolled .scroll-top-button {
   position: relative;
   background: #2b2f55;
 padding: 100px 20px;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
 }
 

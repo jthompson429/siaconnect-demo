@@ -3280,7 +3280,42 @@ body.scrolled .scroll-top-button {
   }
 		
 }
+/* Deployment Section */
+.deployment-section {
+  background: #2b2f55;
+  color: #ffffff;
+  padding: 100px 20px;
+  text-align: left;
+}
+.deployment-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInHero 1.8s ease;
+}
+.deployment-section h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
 
+.deployment-section h2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+	margin-bottom: 60px;
+}
+.deployment-section h3 {
+  font-size: 2rem;
+  color: #ffffff;
+	margin-bottom: 20px;
+}
+.deployment-section p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+/* Deployment */
 #deployment {
   background: #1b1e30;
   color: #58a6ff;
@@ -3416,7 +3451,68 @@ margin-bottom: 5px;
   
 		
 }
+/* Help Section */
+.help-section {
+  position: relative;
+  background: #22243d;
+padding: 100px 20px;
+  text-align: left;
+  overflow: hidden;
+}
 
+.help-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInbenefit 1.8s ease;
+}
+
+.help-logo {
+  width: 200px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.help-section h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.help-section h2 {
+color: #ffffff; 
+font-size: 2.5rem;
+text-align: center;
+  margin-bottom: 60px;
+}
+.help-section h3 {
+color: #ffffff; 
+font-size: 2rem;
+text-align: center;
+  margin-bottom: 40px;
+}
+.help-section p {
+  font-size: 1.5rem;
+text-align: left;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+
+/* benefit Animations */
+@keyframes fadeInbenefit {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 768px) {
+  .benefit-section h1 {
+    font-size: 2.2rem;
+  }
+  .benefit-section p {
+    font-size: 1.5rem;
+margin-bottom: 5px;
+  }
+  
+	
 /* Security Section */
 .security-section {
   position: relative;
@@ -4348,7 +4444,7 @@ table.comparison-table th:last-child {
 
 /* SIAConnect Behind the Scenes Section */
 .behind-the-scenes-section {
-  background: #1a1d38;
+  background: #22243d;
   padding: 100px 20px;
   text-align: center;
   position: relative;
@@ -4369,12 +4465,12 @@ table.comparison-table th:last-child {
 .behind-the-scenes-section h2 {
   font-size: 2.5em;
   color: #ffffff;
-  margin-bottom: 60px;
+  margin-bottom: 2px;
 }
 .behind-the-scenes-section h3 {
   font-size: 2em;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 2px;
 }
 
 .behind-the-scenes-section p {

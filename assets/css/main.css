@@ -3089,7 +3089,7 @@ input, select, textarea {
 .features-section h2 {
   font-size: 2.5em;
   color: #0050b6;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 .features-section h3 {
   font-size: 2em;
@@ -3126,7 +3126,7 @@ input, select, textarea {
   100% { opacity: 1; transform: translateY(0); }
 }
 .role-highlight {
-  background: rgba(17, 25, 135, 0.3); /* Soft hint of your SIAConnect blue */
+  background: #0050b687
   border-radius: 12px;
   padding: 40px 20px;
   margin-top: 20px;
@@ -3356,7 +3356,7 @@ body.scrolled .scroll-top-button {
 /* Benefit Section */
 .benefit-section {
   position: relative;
-  background: #2b2f55;
+  background: #22243d;
 padding: 100px 20px;
   text-align: left;
   overflow: hidden;
@@ -3420,7 +3420,7 @@ margin-bottom: 5px;
 /* Security Section */
 .security-section {
   position: relative;
-  background: #343865;
+  background: #2b2f55;
 padding: 100px 20px;
   text-align: left;
   overflow: hidden;
@@ -3979,7 +3979,7 @@ nav a:hover::after {
 /* siaconnect-access-section */
 .siaconnect-access-section {
   position: relative;
-  background: #0a0a0a;
+  background: #343865;
 color: #ffffff;
 padding: 100px 20px;
   text-align: left;
@@ -4199,6 +4199,40 @@ margin-bottom: 2px;
 }
 
 /* SIAConnect Comparison Section */
+.comparison-section {
+background-color: #1a1d38;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.comparison-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeIndemo 1.8s ease;
+}
+.comparison-section h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.comparison-section h2 {
+  font-size: 2.5em;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+.comparison-section h3 {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.comparison-section p {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
 /* Comparison Table Styling */
 table.comparison-table {
   width: 100%;
@@ -4312,6 +4346,65 @@ table.comparison-table th:last-child {
     100% { opacity: 1; transform: translateY(0); }
   }
 
+/* SIAConnect Behind the Scenes Section */
+.behind-the-scenes-section {
+  background: #1a1d38;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.behind-the-scenes-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeIndemo 1.8s ease;
+}
+.behind-the-scenes-section h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.behind-the-scenes-section h2 {
+  font-size: 2.5em;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+.behind-the-scenes-section h3 {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.behind-the-scenes-section p {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+
+.behind-the-scenes-section .button.special {
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.behind-the-scenes-section .button.special:hover {
+  color: #111987;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+}
+
+
+/* Subtle animations */
+@keyframes fadeInbehind-the-scenes {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {

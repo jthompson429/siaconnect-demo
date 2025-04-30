@@ -3364,7 +3364,7 @@ padding: 100px 20px;
 
 .benefit-container {
   max-width: 800px;
-  margin: 20 auto;
+  margin: 0 auto;
   animation: fadeInbenefit 1.8s ease;
 }
 
@@ -3375,42 +3375,27 @@ padding: 100px 20px;
 }
 
 .benefit-section h1 {
-  font-size: 3rem;
-		text-align: center;
-  margin-bottom: 40px;
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 .benefit-section h2 {
   font-size: 2.5rem;
-		text-align: center;
+text-align: center;
   margin-bottom: 20px;
 }
 .benefit-section h3 {
   font-size: 2rem;
-		text-align: center;
+text-align: center;
   margin-bottom: 20px;
 }
 .benefit-section p {
   font-size: 1.5rem;
-		text-align: left;
+text-align: left;
   color: #cccccc;
   margin-bottom: 80px;
 }
 
-.benefit-section .button.special {
-  background-color: transparent;
-  color: white;
-  font-size: 1rem;
-  padding: 12px 30px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.benefit-section .button.special:hover {
-  color: #111987;
-	background-color: #ffffff;
-	border: 2px solid #ffffff;
-}
 
 /* benefit Animations */
 @keyframes fadeInbenefit {
@@ -3426,10 +3411,7 @@ padding: 100px 20px;
     font-size: 1.5rem;
 				margin-bottom: 5px;
   }
-  .button {
-    padding: 10px 20px;
-    font-size: 0.9em;
-  }
+  
 		
 }
 /* Header */

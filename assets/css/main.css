@@ -3977,7 +3977,8 @@ max-width: 100%;
 
 .mockup-row {
   display: flex;
-		background: #000000 40%;
+		background: rgba(0, 0, 0, 0.075);
+		border-radius: 4px;
   align-items: flex-start; /* aligns tops */
   justify-content: center;
   gap: 40px;

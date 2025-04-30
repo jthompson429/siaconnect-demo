@@ -3926,7 +3926,7 @@ nav a:hover::after {
 
 /* siaconnect-access-section */
 .siaconnect-access-section {
-  background: #0a0a0a;
+  background: #343865;
   padding: 100px 20px;
   text-align: center;
   position: relative;
@@ -3977,6 +3977,7 @@ max-width: 100%;
 
 .mockup-row {
   display: flex;
+		background: #000000 40%;
   align-items: flex-start; /* aligns tops */
   justify-content: center;
   gap: 40px;

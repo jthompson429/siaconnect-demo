@@ -3066,448 +3066,6 @@ input, select, textarea {
 				color: #4a87d3;
 			}
 
-/* SIAConnect Features Section */
-.features-section {
-  background: #ffffff;
-  padding: 100px 20px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.features-container {
-  max-width: 800px;
-  margin: 0 auto;
-  animation: fadeInFuture 1.8s ease;
-}
-.features-section h1 {
-  font-size: 3em;
-  color: #0050b6;
-  margin-bottom: 60px;
-}
-
-.features-section h2 {
-  font-size: 2.5em;
-  color: #0050b6;
-  margin-bottom: 60px;
-}
-.features-section h3 {
-  font-size: 2em;
-  color: #0050b6;
-  margin-bottom: 10px;
-}
-
-.features-section p {
-  font-size: 1.2em;
-  color: #0050b6;
-  margin-bottom: 60px;
-}
-
-.features-section .button.special {
-  background-color: transparent;
-  color: #0050b6;
-  font-size: 1rem;
-  padding: 12px 30px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.features-section .button.special:hover {
-  color: #111987;
-	background-color: #ffffff;
-	border: 2px solid #ffffff;
-}
-
-
-/* Subtle animations */
-@keyframes fadeInFetures {
-  0% { opacity: 0; transform: translateY(30px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-.role-highlight {
-  background: #0050b687;
-  border-radius: 12px;
-  padding: 40px 20px;
-  margin-top: 20px;
-}
-
-/* Button Standardization */
-.button {
-  display: inline-block;
-  background-color: transparent;
-  color: #0050b6 !important;
-	border: 2px solid #0050b6 !important;
-  font-size: 0.9em;
-		font-weight: 400;
-  text-decoration: none;
-		padding: 2em;
-		text-align: center;
-}
-
-.button:hover {
-  color: #ffffff;
-	border: 2px solid #ffffff !important;
-	
-}
-
-/* Divider line between platforms */
-.platform-divider {
-  height: 1px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.08);
-  margin: 20px 0;
-}
-
-/* Special Button Variant (e.g., in Hero) */
-.button.special {
-  display: inline-block;
-  background-color: transparent;
-  color: #0050b6 !important;
-		border: 2px solid #0050b6 !important;
-  font-size: 0.9em;
-  border-radius: 4px;
-  text-decoration: none;
-		padding: 2em;
-		text-align: center;
-		
-}
-
-.button.special:hover {
-  background-color: transparent;
-	border: 2px solid #ffffff !important;
-		color: #ffffff;
-}
-
-/* Scroll to Top Button */
-.scroll-top-button {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background-color: #0050b6;
-  color: #ffffff;
-  font-size: 24px;
-  padding: 10px 14px;
-  border-radius: 50%;
-  text-decoration: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.4s, transform 0.4s;
-  z-index: 999;
-}
-
-.scroll-top-button:hover {
-  background-color: #0050b6;
-  transform: translateY(-4px);
-}
-
-/* Show button after scrolling */
-body.scrolled .scroll-top-button {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-/* Hero Section */
-.hero-section {
-  position: relative;
-  background: linear-gradient(145deg, #0a0a0a 0%, #111987 100%);
-  color: white;
-  text-align: center;
-  padding: 160px 20px 100px;
-  overflow: hidden;
-}
-
-.hero-container {
-  max-width: 800px;
-  margin: 0 auto;
-  animation: fadeInHero 1.8s ease;
-}
-
-.hero-logo {
-  width: 200px;
-  margin-bottom: 30px;
-  opacity: 0.9;
-}
-
-.hero-section h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-.hero-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-.hero-section p {
-  font-size: 1.2rem;
-  color: #cccccc;
-  margin-bottom: 80px;
-}
-
-.hero-section .button.special {
-  background-color: transparent;
-  color: white;
-  font-size: 1rem;
-  padding: 12px 30px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.hero-section .button.special:hover {
-  color: #111987;
-	background-color: #ffffff;
-	border: 2px solid #ffffff;
-}
-
-/* Hero Animations */
-@keyframes fadeInHero {
-  0% { opacity: 0; transform: translateY(30px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-
-@media screen and (max-width: 768px) {
-  .hero-section h1 {
-    font-size: 2.2rem;
-  }
-  .hero-section p {
-    font-size: 1.2rem;
-  }
-  .button {
-    padding: 10px 20px;
-    font-size: 0.9em;
-  }
-		
-}
-
-/* Deployment */
-#deployment {
-  background: #1b1e30;
-  color: #58a6ff;
-  padding: 100px 20px;
-  text-align: left;
-}
-
-#deployment h1 {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 20px;
-  color: #ffffff;
-}
-
-#deployment h2 {
-  font-size: 2.5rem;
-  margin-top: 40px;
-  color: #ffffff;
-}
-
-#deployment p {
-  font-size: 1.5rem;
-  line-height: 1.6;
-}
-
-/* Roadmap Timeline */
-.roadmap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.roadmap-step {
-  flex: 1 1 200px;
-  max-width: 300px;
-  padding: 20px;
-}
-
-.roadmap-circle {
-  background-color: #111987;
-  color: #ffffff;
-  font-size: 1.5rem;
-  font-weight: bold;
-  width: 60px;
-  height: 60px;
-  margin: 0 auto 20px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.roadmap-line {
-  width: 60px;
-  height: 4px;
-  background-color: #111987;
-  margin: 0 10px;
-}
-
-.roadmap h3 {
-  color: #ffffff;
-  margin-bottom: 10px;
-}
-
-.roadmap p {
-  font-size: 0.95rem;
-  color: #cccccc;
-}
-
-/* Benefit Section */
-.benefit-section {
-  background: #22243d;
-  padding: 60px 20px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.benefit-container {
-  max-width: 800px;
-  margin: 0 auto;
-  animation: fadeInbenefit 1.8s ease;
-}
-
-.benefit-section h1 {
-  font-size: 3em;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-.benefit-section h2 {
-color: #ffffff; 
-font-size: 2.5rem;
-text-align: center;
-  margin-bottom: 60px;
-}
-.benefit-section h3 {
-color: #ffffff; 
-font-size: 2rem;
-text-align: center;
-  margin-bottom: 40px;
-}
-.benefit-section p {
-  font-size: 1.5rem;
-text-align: left;
-  color: #ffffff;
-  margin-bottom: 40px;
-}
-
-
-/* benefit Animations */
-@keyframes fadeInbenefit {
-  0% { opacity: 0; transform: translateY(30px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-
-@media screen and (max-width: 768px) {
-  .benefit-section h1 {
-    font-size: 2.2rem;
-  }
-  .benefit-section p {
-    font-size: 1.5rem;
-margin-bottom: 5px;
-  }
-  
-		
-}
-/* Help Section */
-.help-section {
-  position: relative;
-  background: #22243d;
-padding: 100px 20px;
-  text-align: left;
-  overflow: hidden;
-}
-
-.help-container {
-  max-width: 800px;
-  margin: 0 auto;
-  animation: fadeInbenefit 1.8s ease;
-}
-
-.help-logo {
-  width: 200px;
-  margin-bottom: 30px;
-  opacity: 0.9;
-}
-
-.help-section h1 {
-  font-size: 3em;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-.help-section h2 {
-color: #ffffff; 
-font-size: 2.5rem;
-text-align: center;
-  margin-bottom: 60px;
-}
-.help-section h3 {
-color: #ffffff; 
-font-size: 2rem;
-text-align: center;
-  margin-bottom: 40px;
-}
-.help-section p {
-  font-size: 1.5rem;
-text-align: left;
-  color: #ffffff;
-  margin-bottom: 40px;
-}
-
-
-/* benefit Animations */
-@keyframes fadeInbenefit {
-  0% { opacity: 0; transform: translateY(30px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-
-@media screen and (max-width: 768px) {
-  .benefit-section h1 {
-    font-size: 2.2rem;
-  }
-  .benefit-section p {
-    font-size: 1.5rem;
-margin-bottom: 5px;
-  }
-  
-	
-/* Sec Section */
-.sec-section {
-  background: #2b2f55;
-  padding: 60px 20px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.sec-container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.sec-section h1 {
-  font-size: 3em;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-.sec-section h2 {
-  font-size: 2.5em;
-  color: #ffffff;
-  margin-bottom: 60px;
-}
-.sec-section h3 {
-  font-size: 2em;
-  color: #ffffff;
-  margin-bottom: 30px;
-}
-.sec-section p {
-  font-size: 1.2em;
-  color: #cccccc;
-  margin-bottom: 40px;
-}
-
 
 /* Header */
 
@@ -3700,16 +3258,7 @@ margin-bottom: 5px;
 		opacity: 1;
 	}
 	
-.circuit-grid {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  pointer-events: none;
-  opacity: 0.25;
-}
+
 
 /* Nav */
 
@@ -4394,6 +3943,446 @@ table.comparison-table th:last-child {
   0% { opacity: 0; transform: translateY(30px); }
   100% { opacity: 1; transform: translateY(0); }
 }
+/* SIAConnect Features Section */
+.features-section {
+  background: #ffffff;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.features-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInFuture 1.8s ease;
+}
+.features-section h1 {
+  font-size: 3em;
+  color: #0050b6;
+  margin-bottom: 60px;
+}
+
+.features-section h2 {
+  font-size: 2.5em;
+  color: #0050b6;
+  margin-bottom: 60px;
+}
+.features-section h3 {
+  font-size: 2em;
+  color: #0050b6;
+  margin-bottom: 10px;
+}
+
+.features-section p {
+  font-size: 1.2em;
+  color: #0050b6;
+  margin-bottom: 60px;
+}
+
+.features-section .button.special {
+  background-color: transparent;
+  color: #0050b6;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.features-section .button.special:hover {
+  color: #111987;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+}
+
+
+/* Subtle animations */
+@keyframes fadeInFetures {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.role-highlight {
+  background: #0050b687;
+  border-radius: 12px;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
+/* Button Standardization */
+.button {
+  display: inline-block;
+  background-color: transparent;
+  color: #0050b6 !important;
+	border: 2px solid #0050b6 !important;
+  font-size: 0.9em;
+		font-weight: 400;
+  text-decoration: none;
+		padding: 2em;
+		text-align: center;
+}
+
+.button:hover {
+  color: #ffffff;
+	border: 2px solid #ffffff !important;
+	
+}
+
+/* Divider line between platforms */
+.platform-divider {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.08);
+  margin: 20px 0;
+}
+
+/* Special Button Variant (e.g., in Hero) */
+.button.special {
+  display: inline-block;
+  background-color: transparent;
+  color: #0050b6 !important;
+		border: 2px solid #0050b6 !important;
+  font-size: 0.9em;
+  border-radius: 4px;
+  text-decoration: none;
+		padding: 2em;
+		text-align: center;
+		
+}
+
+.button.special:hover {
+  background-color: transparent;
+	border: 2px solid #ffffff !important;
+		color: #ffffff;
+}
+
+/* Scroll to Top Button */
+.scroll-top-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0050b6;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s, transform 0.4s;
+  z-index: 999;
+}
+
+.scroll-top-button:hover {
+  background-color: #0050b6;
+  transform: translateY(-4px);
+}
+
+/* Show button after scrolling */
+body.scrolled .scroll-top-button {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  background: linear-gradient(145deg, #0a0a0a 0%, #111987 100%);
+  color: white;
+  text-align: center;
+  padding: 160px 20px 100px;
+  overflow: hidden;
+}
+
+.hero-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInHero 1.8s ease;
+}
+
+.hero-logo {
+  width: 200px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.hero-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.hero-section p {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-bottom: 80px;
+}
+
+.hero-section .button.special {
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.hero-section .button.special:hover {
+  color: #111987;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+}
+
+/* Hero Animations */
+@keyframes fadeInHero {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+		
+}
+
+/* Deployment */
+#deployment {
+  background: #1b1e30;
+  color: #58a6ff;
+  padding: 100px 20px;
+  text-align: left;
+}
+
+#deployment h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+#deployment h2 {
+  font-size: 2.5rem;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+#deployment p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Roadmap Timeline */
+.roadmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.roadmap-step {
+  flex: 1 1 200px;
+  max-width: 300px;
+  padding: 20px;
+}
+
+.roadmap-circle {
+  background-color: #111987;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roadmap-line {
+  width: 60px;
+  height: 4px;
+  background-color: #111987;
+  margin: 0 10px;
+}
+
+.roadmap h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.roadmap p {
+  font-size: 0.95rem;
+  color: #cccccc;
+}
+
+/* Benefit Section */
+.benefit-section {
+  background: #22243d;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.benefit-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInbenefit 1.8s ease;
+}
+
+.benefit-section h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.benefit-section h2 {
+color: #ffffff; 
+font-size: 2.5rem;
+text-align: center;
+  margin-bottom: 60px;
+}
+.benefit-section h3 {
+color: #ffffff; 
+font-size: 2rem;
+text-align: center;
+  margin-bottom: 40px;
+}
+.benefit-section p {
+  font-size: 1.5rem;
+text-align: left;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+
+/* benefit Animations */
+@keyframes fadeInbenefit {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 768px) {
+  .benefit-section h1 {
+    font-size: 2.2rem;
+  }
+  .benefit-section p {
+    font-size: 1.5rem;
+margin-bottom: 5px;
+  }
+  
+		
+}
+/* Help Section */
+.help-section {
+  position: relative;
+  background: #22243d;
+padding: 100px 20px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.help-container {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInbenefit 1.8s ease;
+}
+
+.help-logo {
+  width: 200px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.help-section h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.help-section h2 {
+color: #ffffff; 
+font-size: 2.5rem;
+text-align: center;
+  margin-bottom: 60px;
+}
+.help-section h3 {
+color: #ffffff; 
+font-size: 2rem;
+text-align: center;
+  margin-bottom: 40px;
+}
+.help-section p {
+  font-size: 1.5rem;
+text-align: left;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+
+/* benefit Animations */
+@keyframes fadeInbenefit {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 768px) {
+  .benefit-section h1 {
+    font-size: 2.2rem;
+  }
+  .benefit-section p {
+    font-size: 1.5rem;
+margin-bottom: 5px;
+  }
+  
+	
+/* Sec Section */
+.sec-section {
+  background: #2b2f55;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.sec-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sec-section h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.sec-section h2 {
+  font-size: 2.5em;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+.sec-section h3 {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.sec-section p {
+  font-size: 1.2em;
+  color: #cccccc;
+  margin-bottom: 40px;
 }
 /* XLarge */
 

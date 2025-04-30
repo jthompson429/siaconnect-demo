@@ -2893,8 +2893,8 @@ input, select, textarea {
 			
 /* Main Style 2 */
 		.main.style2 {
-			background-color: #1a1d38;
-			color: rgba(255, 255, 255, 0.75);
+			background-color: #2b2f55;
+			color: #ffffff;
 			background-attachment: fixed,							fixed;
 			background-size: auto,							cover;
 		}

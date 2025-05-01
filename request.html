@@ -5,12 +5,26 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 4s;
+}
+#divimg {transition-timing-function: ease;}
+	
+div:hover {
+  width: 300px;
+  height: 300px;
+}
+</style>
 </head>
 <body>
 <!-- Nav -->
 
     <header id="header" class="alt">
         <div class="inner">
+		<div id="divimg"><img src="assets/images/siaconnect-logo-transparent-website.png" alt="SIAConnect Logo" style="height:150px; vertical-align:middle; margin-right:10px;"></div>
 	<img src="assets/images/siaconnect-logo-transparent-website.png" alt="SIAConnect Logo" style="height:150px; vertical-align:middle; margin-right:10px;">
             <h1>Creating a Document Request</h1>
             <p>This section will give you step-by-step guidance on creating a Document Request in SIAConnect.</p>

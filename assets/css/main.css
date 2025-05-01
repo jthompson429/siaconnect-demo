@@ -4308,26 +4308,26 @@ margin-bottom: 5px;
   margin: 0 auto;
 }
 
-.whatnext h1 {
+.whatnext-section h1 {
   font-size: 3em;
   color: #ffffff;
   margin-bottom: 20px;
 }
 
-.whatnext h2 {
+.whatnext-section h2 {
 color: #ffffff; 
 font-size: 2.5em;
 text-align: center;
 margin-bottom: 2px;
 }
 
-.whatnext h3 {
+.whatnext-section h3 {
 color: #ffffff; 
 font-size: 2em;
 text-align: center;
   margin-bottom: 2px;
 }
-.whatnext p {
+.whatnext-section p {
   font-size: 1.5em;
 text-align: left;
   color: #ffffff;
@@ -4434,40 +4434,7 @@ margin-bottom: 5px;
   }
   
 	
-/* Sec Section */
-.sec-section {
-  background: #2b2f55;
-  padding: 60px 20px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
 
-.sec-container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.sec-section h1 {
-  font-size: 3em;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-.sec-section h2 {
-  font-size: 2.5em;
-  color: #ffffff;
-  margin-bottom: 60px;
-}
-.sec-section h3 {
-  font-size: 2em;
-  color: #ffffff;
-  margin-bottom: 30px;
-}
-.sec-section p {
-  font-size: 1.2em;
-  color: #cccccc;
-  margin-bottom: 40px;
-}
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {

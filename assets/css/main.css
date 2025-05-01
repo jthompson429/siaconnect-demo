@@ -3581,8 +3581,9 @@ nav a:hover::after {
 
 .siaconnect-access-section p {
   font-size: 1.2em;
-  color: #cccccc;
-  margin-bottom: 80px;
+  color: #ffffff;
+ text-align: left;
+  margin-bottom: 20px;
 }
 
 /* SVG animation overlay */
@@ -4327,9 +4328,15 @@ font-size: 2em;
 text-align: center;
   margin-bottom: 2px;
 }
+.whatnext-section h4 {
+color: #ffffff; 
+font-size: 1.5em;
+text-align: center;
+  margin-bottom: 2px;
+}
 .whatnext-section p {
-  font-size: 1.5em;
-text-align: left;
+  font-size: 1.2em;
+text-align: center;
   color: #ffffff;
   margin-bottom: 40px;
 }

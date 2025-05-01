@@ -4183,7 +4183,8 @@ body.scrolled .scroll-top-button {
 }
 
 #deployment p {
-color: font-size: 1.2em;
+color: #ffffff;
+font-size: 1.2em;
 font-size: 1.2em;
 margin-bottom: 10px;
 }
@@ -4257,18 +4258,18 @@ margin-bottom: 10px;
 }
 .benefit-section h2 {
 color: #ffffff; 
-font-size: 2.5rem;
+font-size: 2.5em;
 text-align: center;
-  margin-bottom: 60px;
+margin-bottom: 60px;
 }
 .benefit-section h3 {
 color: #ffffff; 
-font-size: 2rem;
+font-size: 2em;
 text-align: center;
   margin-bottom: 40px;
 }
 .benefit-section p {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 text-align: left;
   color: #ffffff;
   margin-bottom: 40px;
@@ -4315,19 +4316,19 @@ margin-bottom: 5px;
 
 .whatnext h2 {
 color: #ffffff; 
-font-size: 2.5rem;
+font-size: 2.5em;
 text-align: center;
 margin-bottom: 2px;
 }
 
 .whatnext h3 {
 color: #ffffff; 
-font-size: 2rem;
+font-size: 2em;
 text-align: center;
   margin-bottom: 2px;
 }
 .whatnext p {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 text-align: left;
   color: #ffffff;
   margin-bottom: 40px;

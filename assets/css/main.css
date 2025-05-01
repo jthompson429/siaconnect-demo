@@ -4289,6 +4289,44 @@ margin-bottom: 5px;
 		
 }
 
+/* Whats Next Section */
+.whatnext-section {
+  background: #343865
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.whatnext-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.whatnext h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.whatnext h2 {
+color: #ffffff; 
+font-size: 2.5rem;
+text-align: center;
+  margin-bottom: 2px;
+}
+.whatnext h3 {
+color: #ffffff; 
+font-size: 2rem;
+text-align: center;
+  margin-bottom: 2px;
+}
+.whatnext p {
+  font-size: 1.5rem;
+text-align: left;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
 /* Sec Section */
 .sec-section {
   background: #2b2f55;

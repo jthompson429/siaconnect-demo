@@ -3563,24 +3563,24 @@ nav a:hover::after {
   overflow: hidden;
 }
 .siaconnect-access-section h1 {
-  font-size: 3em;
+  font-size: 3rem;
   color: #ffffff;
   margin-bottom: 20px;
 }
 
 .siaconnect-access-section h2 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   color: #ffffff;
   margin-bottom: 60px;
 }
 .siaconnect-access-section h3 {
-  font-size: 2em;
+  font-size: 2rem;
   color: #ffffff;
   margin-bottom: 30px;
 }
 
 .siaconnect-access-section p {
-  font-size: 1.2em;
+  font-size: 1.2rm;
   color: #ffffff;
  text-align: left;
   margin-bottom: 20px;
@@ -3727,25 +3727,25 @@ margin-bottom: 2px;
   animation: fadeIndemo 1.8s ease;
 }
 .demo-section h1 {
-  font-size: 3em;
+  font-size: 3rem;
   color: #ffffff;
   margin-bottom: 20px;
 }
 
 .demo-section h2 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   color: #ffffff;
   margin-bottom: 60px;
 }
 .demo-section h3 {
-  font-size: 2em;
+  font-size: 2rem;
   color: #ffffff;
   margin-bottom: 30px;
 }
 
 .demo-section p {
-  font-size: 1.2em;
-  color: #cccccc;
+  font-size: 1.2rem;
+  color: #ffffff;
   margin-bottom: 80px;
 }
 
@@ -3900,26 +3900,26 @@ table.comparison-table th:last-child {
   animation: fadeIndemo 1.8s ease;
 }
 .behind-the-scenes-section h1 {
-  font-size: 3em;
+  font-size: 3rem;
   color: #ffffff;
   margin-bottom: 20px;
 }
 
 .behind-the-scenes-section h2 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   color: #ffffff;
   margin-bottom: 2px;
 }
 .behind-the-scenes-section h3 {
-  font-size: 2em;
+  font-size: 2rem;
   color: #ffffff;
   margin-bottom: 2px;
 }
 
 .behind-the-scenes-section p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #ffffff;
-  margin-bottom: 80px;
+  margin-bottom: 80rpx;
 }
 
 .behind-the-scenes-section .button.special {
@@ -3959,24 +3959,24 @@ table.comparison-table th:last-child {
   animation: fadeInFuture 1.8s ease;
 }
 .features-section h1 {
-  font-size: 3em;
+  font-size: 3rem;
   color: #0050b6;
   margin-bottom: 60px;
 }
 
 .features-section h2 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   color: #0050b6;
   margin-bottom: 60px;
 }
 .features-section h3 {
-  font-size: 2em;
+  font-size: 2rem;
   color: #0050b6;
   margin-bottom: 10px;
 }
 
 .features-section p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #0050b6;
   margin-bottom: 60px;
 }
@@ -4185,8 +4185,7 @@ body.scrolled .scroll-top-button {
 
 #deployment p {
 color: #ffffff;
-font-size: 1.2em;
-font-size: 1.2em;
+font-size: 1.2rem;
 margin-bottom: 10px;
 }
 
@@ -4253,24 +4252,24 @@ margin-bottom: 10px;
 }
 
 .benefit-section h1 {
-  font-size: 3em;
+  font-size: 3rem;
   color: #ffffff;
   margin-bottom: 20px;
 }
 .benefit-section h2 {
 color: #ffffff; 
-font-size: 2.5em;
+font-size: 2.5rem;
 text-align: center;
 margin-bottom: 60px;
 }
 .benefit-section h3 {
 color: #ffffff; 
-font-size: 2em;
+font-size: 2rem;
 text-align: center;
   margin-bottom: 40px;
 }
 .benefit-section p {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 text-align: left;
   color: #ffffff;
   margin-bottom: 40px;
@@ -4310,32 +4309,32 @@ margin-bottom: 5px;
 }
 
 .whatnext-section h1 {
-  font-size: 3em;
+  font-size: 3rem;
   color: #ffffff;
   margin-bottom: 20px;
 }
 
 .whatnext-section h2 {
 color: #ffffff; 
-font-size: 2.5em;
+font-size: 2.5rem;
 text-align: center;
 margin-bottom: 2px;
 }
 
 .whatnext-section h3 {
 color: #ffffff; 
-font-size: 2em;
+font-size: 2rem;
 text-align: center;
   margin-bottom: 2px;
 }
 .whatnext-section h4 {
 color: #ffffff; 
-font-size: 1.5em;
+font-size: 1.5rem;
 text-align: center;
   margin-bottom: 2px;
 }
 .whatnext-section p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 text-align: center;
   color: #ffffff;
   margin-bottom: 40px;

@@ -3275,17 +3275,13 @@ input, select, textarea {
  }
  
  /* Add top padding to main content to prevent overlap */
- #nav + #main,
+ nav + #main,
  body > main {
    padding-top: 4.25em;
  }
  
- #nav ul {
-   margin: 0;
-   padding: 0;
-   list-style: none;
- /* Nav container */
- #nav ul {
+ 
+ nav ul {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
@@ -3295,12 +3291,12 @@ input, select, textarea {
    margin: 0;
  }
  
- #nav ul li {
+ nav ul li {
    margin: 0 1.25em;
  }
  
  /* Nav links */
- #nav ul li a {
+ nav ul li a {
    color: #ffffff;
    text-decoration: none;
    font-weight: 400;
@@ -3310,11 +3306,11 @@ input, select, textarea {
    font-size: 1.1em;
  }
  
- #nav ul li a:hover {
+ nav ul li a:hover {
    color: #3B9EFF;
  }
  
- #nav ul li a::after {
+ nav ul li a::after {
    content: '';
    position: absolute;
    left: 0;
@@ -3327,29 +3323,29 @@ input, select, textarea {
    transition: transform 0.3s ease;
  }
  
- #nav ul li a:hover::after {
+ nav ul li a:hover::after {
    transform: scaleX(1);
    transform-origin: left;
  }
  
- #nav ul li a.active {
+ nav ul li a.active {
    color: #3B9EFF;
  }
  
- #nav ul li a.active::after {
+ nav ul li a.active::after {
    transform: scaleX(1);
    transform-origin: left;
  }
  
 @media screen and (max-width: 768px) {
-   #nav ul {
+   nav ul {
      flex-direction: flex;
      align-items: flex-start;
      gap: 12px;
      padding: 20px;
    }
  
-   #nav li {
+   nav li {
      display: block;
      width: 100%;
      text-align: left;
@@ -3358,11 +3354,11 @@ input, select, textarea {
      gap: 20px;
    }
  
-   #nav a {
+   nav a {
      display: block;
      padding: 10px 0;
      font-size: 1rem;
-   #nav ul li a {
+   nav ul li a {
      font-size: 1em;
    }
  }

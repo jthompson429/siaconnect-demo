@@ -3339,7 +3339,7 @@ input, select, textarea {
  
 @media screen and (max-width: 768px) {
    nav ul {
-     flex-direction: flex;
+     flex-direction: block;
      align-items: flex-start;
      gap: 12px;
      padding: 20px;

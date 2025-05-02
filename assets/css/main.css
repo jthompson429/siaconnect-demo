@@ -3389,23 +3389,23 @@ input, select, textarea {
 
 /* Fancy Hover Glow for Nav Links */
 .fixed-nav-bar { 
+	overflow: hidden;
 	position: fixed; 
 	top: 0; 
-	padding: .2em;
-		background-color: #111987;
-		border-top-left-radius: 0em;
-		border-top-right-radius: 0em;
-		cursor: default;
-		text-align: left;
+	background-color: #111987;
+	text-align: left;
 	z-index: 9999; 
 	width: 100%; 
 }
 
 .fixed-nav-bar a {
-  font-size: 1rem;
+	 float: left;
   color: #ffffff;
-  text-decoration: none;
-  position: fixed
+  display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   transition: color 0.3s ease;
 }
 

@@ -3342,9 +3342,7 @@ input, select, textarea {
    transform-origin: left;
  }
  
- @media screen and (max-width: 768px) {
- /* Responsive adjustment */
- @media (max-width: 768px) {
+@media screen and (max-width: 768px) {
    nav ul {
      flex-direction: flex;
      align-items: flex-start;

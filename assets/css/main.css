@@ -3271,6 +3271,7 @@ input, select, textarea {
 		position: relative;
 		width: auto;
 		padding: .2em;
+		padding-right: 12px;
 		border-top-left-radius: 0em;
 		border-top-right-radius: 0em;
 		cursor: default;

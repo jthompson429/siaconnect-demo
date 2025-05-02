@@ -3394,6 +3394,7 @@ input, select, textarea {
 	top: 0; 
 	background-color: #111987;
 	text-align: left;
+	padding: 14px 16px;
 	z-index: 9999; 
 	width: 100%; 
 }
@@ -3403,8 +3404,6 @@ input, select, textarea {
   color: #ffffff;
   display: block;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -3437,13 +3436,12 @@ input, select, textarea {
     flex-wrap: wrap;
 				padding: 2px 2px;
 				color: #ffffff;
-    justify-content: center;
+    justify-content: left;
 
   }
 
   .fixed-nav-bar a {
     font-size: 1rem;
-  
     text-decoration: none;
   }
 		.fixed-nav-bar + #main {
@@ -3684,9 +3682,9 @@ border-radius: 12px;
 	
 /* SIAConnect Future Section */
 .future-section {
-	margin-top: 60px;
+	margin-top: 100px;
   background: #000000;
-  padding: 60px 20px;
+  padding: 100px 20px;
   text-align: center;
   position: relative;
   overflow: hidden;

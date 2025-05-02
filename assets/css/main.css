@@ -3391,10 +3391,14 @@ input, select, textarea {
 .fixed-nav-bar { 
 	position: fixed; 
 	top: 0; 
-	padding: 2px 0;
+	padding: .2em;
+		background-color: #111987;
+		border-top-left-radius: 0em;
+		border-top-right-radius: 0em;
+		cursor: default;
+		text-align: center;
 	z-index: 9999; 
-	width: 100%;  
-	background-color: #111987; 
+	width: 100%; 
 }
 
 .fixed-nav-bar a {
@@ -3431,7 +3435,7 @@ input, select, textarea {
   .fixed-nav-bar {
     display: fixed;
     flex-wrap: wrap;
-				padding: 2px 0;
+				padding: 2px 2px;
 				color: #ffffff;
     justify-content: center;
 

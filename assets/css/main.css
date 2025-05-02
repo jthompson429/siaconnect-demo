@@ -3259,7 +3259,7 @@ input, select, textarea {
 	}
 	
 	
-/*  */
+/* nav */
 
 	#nav {
 		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
@@ -3374,7 +3374,10 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+		background-color: #111987;
+		color: #ffffff;
+		position: relative;
+		width: auto;
 			}
 
 				#nav + #main {

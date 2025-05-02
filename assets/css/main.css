@@ -3285,7 +3285,7 @@ input, select, textarea {
    padding: 0;
    list-style: none;
  /* Nav container */
- nav ul {
+ #nav ul {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
@@ -3299,9 +3299,8 @@ input, select, textarea {
    margin: 0 1.25em;
  }
  
- #nav ul li a {
  /* Nav links */
- nav ul li a {
+ #nav ul li a {
    color: #ffffff;
    text-decoration: none;
    font-weight: 400;
@@ -3343,14 +3342,14 @@ input, select, textarea {
  }
  
 @media screen and (max-width: 768px) {
-   nav ul {
+   #nav ul {
      flex-direction: flex;
      align-items: flex-start;
      gap: 12px;
      padding: 20px;
    }
  
-   nav li {
+   #nav li {
      display: block;
      width: 100%;
      text-align: left;
@@ -3359,11 +3358,11 @@ input, select, textarea {
      gap: 20px;
    }
  
-   nav a {
+   #nav a {
      display: block;
      padding: 10px 0;
      font-size: 1rem;
-   nav ul li a {
+   #nav ul li a {
      font-size: 1em;
    }
  }

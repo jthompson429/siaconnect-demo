@@ -3389,17 +3389,12 @@ input, select, textarea {
 
 /* Fancy Hover Glow for Nav Links */
 .fixed-nav-bar { 
-		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 	position: fixed; 
 	top: 0; 
 	left: 0; 
 	z-index: 9999; 
 	width: 100%;  
 	background-color: #111987; 
-	transition: color 0.3s ease;
 }
 
 .fixed-nav-bar a {

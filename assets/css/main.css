@@ -3333,7 +3333,7 @@ body > main {
 
 @media screen and (max-width: 768px) {
   nav ul {
-    flex-direction: column;
+    flex-direction: flex;
     align-items: flex-start;
     gap: 12px;
     padding: 20px;

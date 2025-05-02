@@ -3259,19 +3259,18 @@ input, select, textarea {
 	}
 	
 	
-/* Nav */
+/*  */
 
 	#nav {
 		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #0050b6;
+		background-color: #111987;
 		color: #ffffff;
 		position: relative;
 		width: auto;
-		padding: .2em;
-		background-color: #0050b6;
+		padding: 12em;
 		border-top-left-radius: 0em;
 		border-top-right-radius: 0em;
 		cursor: default;

@@ -3368,52 +3368,7 @@ input, select, textarea {
 				#nav.alt ul li a {
 					font-size: 0.9em;
 				}
-				
-/* Fancy Hover Glow for Nav Links */
-.fixed-nav-bar { 
-	position: fixed; 
-	top: 0; 
-	left: 0; 
-	z-index: 9999; 
-	width: 100%; 
-	height: 50px; 
-	background-color: #00a087; 
-	transition: color 0.3s ease;
-}
-
-nav a {
-  font-size: 1rem;
-  margin: 5px 15px;
-  padding: 5px 0;
-  color: #ffffff;
-  text-decoration: none;
-  position: relative;
-  transition: color 0.3s ease;
-}
-
-nav a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 2px;
-  background: #FFFFFF;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s ease;
-}
-
-nav a:hover {
-  color: #3B9EFF;
-}
-
-nav a:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-				
-@media screen and (max-width: 736px) {
+				@media screen and (max-width: 736px) {
   nav {
     display: flex;
     flex-wrap: wrap;
@@ -3428,6 +3383,72 @@ nav a:hover::after {
     text-decoration: none;
   }
 		#nav + #main {
+					padding-top: 0;
+				}
+}
+
+/* Fancy Hover Glow for Nav Links */
+.fixed-nav-bar { 
+		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	z-index: 9999; 
+	width: 100%;  
+	background-color: #00a087; 
+	transition: color 0.3s ease;
+}
+
+.fixed-nav-bar a {
+  font-size: 1rem;
+  margin: 5px 15px;
+  padding: 1px 0;
+  color: #ffffff;
+  text-decoration: none;
+  position: fixed
+  transition: color 0.3s ease;
+}
+
+.fixed-nav-bar a::after {
+  content: '';
+  position: fixed;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #FFFFFF;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.fixed-nav-bar a:hover {
+  color: #3B9EFF;
+}
+
+.fixed-nav-bar a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+				
+@media screen and (max-width: 736px) {
+  .fixed-nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+				color: #ffffff;
+    justify-content: center;
+    padding: 2px 0;
+  }
+
+  .fixed-nav-bar a {
+    font-size: 1rem;
+    padding: 2px 0;
+    text-decoration: none;
+  }
+		.fixed-nav-bar + #main {
 					padding-top: 0;
 				}
 }

@@ -3268,8 +3268,8 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		color: #ffffff;
-		position: absolute;
-		width: auto;
+		position: fixed;
+		width: 100%;
 		padding: .2em;
 		background-color: #111987;
 		border-top-left-radius: 0em;

@@ -3404,8 +3404,6 @@ input, select, textarea {
 
 .fixed-nav-bar a {
   font-size: 1rem;
-  margin: 2px 5px;
-  padding: 1px 0;
   color: #ffffff;
   text-decoration: none;
   position: fixed
@@ -3436,16 +3434,16 @@ input, select, textarea {
 				
 @media screen and (max-width: 736px) {
   .fixed-nav-bar {
-    display: flex;
+    display: fixed;
     flex-wrap: wrap;
 				color: #ffffff;
     justify-content: center;
-    padding: 2px 0;
+
   }
 
   .fixed-nav-bar a {
     font-size: 1rem;
-    padding: 2px 0;
+  
     text-decoration: none;
   }
 		.fixed-nav-bar + #main {

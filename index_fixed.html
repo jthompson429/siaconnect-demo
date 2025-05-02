@@ -22,23 +22,24 @@
 
 </head>
 	<body class="is-preload">
-	
-<nav id="nav">
+	<nav class="fixed-nav-bar">
+<a href="#home">Home</a>
 <a href="#video">What's Possible</a>
 <a href="#benefits">AI Agent Benefits</a>
+<a href="#security">Security & Compliance</a>
 <a href="#access">Ways to Access</a>
 <a href="#features">Features</a>
 <a href="#comparison">Comparison</a>
-<a href="#how">Under the Hood</a>
-<a href="#roadmap">The Future</a>
-<a href="#roadmap">Roll Out</a>
+<a href="#behind-the-scenes">Behind the Scenes</a>
+<a href="#whats-next">The Future</a>
+<a href="#deployment">Roll Out</a>
 
 </nav>
 
 		
 <!-- SIAConnect - Future of Knowledge Section -->
 <section id="home" class="future-section fade-in-section">
-		<p>What if accessing the knowledge you need — documents, answers, video walkthroughs, request tools — was as simple as messaging a colleague?</p>
+		<h4>What if accessing the knowledge you need was as simple as messaging a colleague?</h4>
 	<div class="future-container">
     <img src="images/siaconnect-glow.png" alt="SIAConnect in your hands" class="glow-image" />
     <h2>The Future of Knowledge</h2>
@@ -54,7 +55,7 @@
 			<div class="demo-container">
 					<h2>What's Possible</h2>
 				<video style="max-width:100%; height:auto;" controls>
-					<source src="assets/videos/2025-04-15 18_37_29.mp4" type="video/mp4">
+					<source src="assets/videos/siaconnect-demo-video-01.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 			</div>
@@ -64,44 +65,57 @@
 <!-- AIBenefits Section -->
 		<section id="benefits" class="benefit-section">
 			<div class="benefit-container">
+			<h2>Benefits of implementing an AI Agent</h2>
 				
-					<h2>Benefits of implementing an AI Agent</h2>
-					<h3>Effectively bridges multiple knowledge systems within a single application</h3>
-				</header>
 			<div class="row gtr-150">
-					<div class="col-6 col-12-medium">
-						<li>Consolidates access to disparate information into one seamless interface.</li>
-					</div>
-					<div class="col-6 col-12-medium">
-						
-						<li>Streamlines information retrieval and enhances productivity.</li>
-					</div>
-					<div class="col-6 col-12-medium">
-						
-						<li>Integrates seamlessly with Microsoft Teams and other existing applications (e.g., SharePoint).</li>
-					</div>
-					<div class="col-6 col-12-medium">
-						
-						<li>Ensures easy access anytime, anywhere for users..</li>
-					</div>
-					<div class="col-12">
-						
-						<li>Adaptable to future changes in business needs and technology.</li>
-					</div>
-				</div>
+			<div class="col-6 col-12-medium">
+			<p>Effectively bridges multiple knowledge systems within a single application</p>
+			</div>
+			<div class="col-6 col-12-medium">
+			<p>Consolidates access to disparate information into one seamless interface.</p>
+			</div>
+			</div>
+				
+			<div class="row gtr-150">
+			<div class="col-6 col-12-medium">	
+			<p>Streamlines information retrieval and enhances productivity.</p>
+			</div>
+			<div class="col-6 col-12-medium">
+			<p>Integrates seamlessly with Microsoft Teams and other existing applications (e.g., SharePoint).</p>
+			</div></div>
+				
+			<div class="row gtr-150">
+			<div class="col-6 col-12-medium">
+			<p>Ensures easy access anytime, anywhere for users.</p>
+			</div>
+			<div class="col-6 col-12-medium">
+			<p>Adaptable to future changes in business needs and technology.</p>
+			</div>
+			</div>
 			</div>
 			</section>
 		
 <!-- AI Security Section -->
-		<section id="security" class="security-section">
-			<div class="security-container">
+		<section id="security" class="sec-section fade-in-section">
+			<div class="sec-container">
 			<h2>Security & Compliance Considerations</h2>
-			<ul>
-<li>All user interactions occur within Microsoft Teams or SharePoint (SIA), authenticated via Azure AD.</li>
-<li>Branding, tone, and usage logs align with Responsible AI Practices.</li>
-<li>No external/public access is enabled or planned.</li>
-<li>All data structures (e.g., KBData, Error Codes) reside in secure Dataverse environments.</li>
-</ul>
+				
+			<div class="row gtr-150">
+			<div class="col-6 col-12-medium">
+			<p>All user interactions occur within Microsoft Teams or SharePoint (SIA), authenticated via Azure AD.</p>
+			</div>
+			<div class="col-6 col-12-medium">
+			<p>Branding, tone, and usage logs align with Responsible AI Practices.</p>
+			</div></div>
+
+			<div class="row gtr-150">
+			<div class="col-6 col-12-medium">
+			<p>No external/public access is enabled or planned.</p>
+			</div>
+			<div class="col-6 col-12-medium">
+			<p>All data structures (e.g., KBData, Error Codes) reside in secure Dataverse environments.</p>
+			</div>
+			</div>
 </div>
 		</section>
 
@@ -112,10 +126,9 @@
   <div class="container">
     <h2>Ways to Access SIAConnect</h2>
 <p>Designed with Glory employees in mind - from field technicians to help desk agents and decision-makers - SIAConnect blends sleek utility with a deep understanding of how teams within Glory work. It's fast, intuitive, and already connected to the tools that Glory uses every day.
-<ul>
-	<li>SIAConnect lives right inside Teams (desktop or mobile — whichever you use most), where work already happens.</li>
-	<li>Adding SIAConnect to Microsoft Teams is as easy as starting a conversation.</li>
-</ul>
+	<p>SIAConnect lives right inside Teams (desktop or mobile — whichever you use most), where work already happens.</p>
+	<p>Adding SIAConnect to Microsoft Teams is as easy as starting a conversation.</p>
+
 
     <div class="mockup-row">
       <div class="mockup-column">
@@ -194,9 +207,10 @@
 </div>
 </section>
 
+		
 <!-- SIAConnect vs Current Method Comparison Table -->
-<section id="comparison" class="comparison-section">
-  <div class="comparison-container">
+<section id="comparison" class="demo-section">
+  <div class="demo-container">
   <h2>How SIAConnect Compares</h2>
     <div class="comparison-wrapper">
       <table class="comparison-table">
@@ -274,7 +288,7 @@
 </section>
 
 
-<!-- Behind the Scenes Section (Updated) -->
+<!-- Behind the Scenes Section -->
 <section id="behind-the-scenes" class="behind-the-scenes-section fade-in-section">
   <div class="behind-the-scenes-container">
       <h2>Behind the Scenes</h2>
@@ -284,7 +298,7 @@
       <div class="platform-item">
         <img src="assets/images/power-automate-icon.png" alt="Power Automate" class="platform-logo">
         <div class="platform-description">
-          <h2>Power Automate</h2>
+          <h3>Power Automate</h3>
           <p>Automates Jira creation, SharePoint document searches, and KB lookups using secure flows.</p>
         </div>
       </div>
@@ -292,7 +306,7 @@
       <div class="platform-item">
         <img src="assets/images/dataverse-icon.png" alt="Dataverse" class="platform-logo" style="width: 48px; height: 48px;">
         <div class="platform-description">
-          <h2>Dataverse</h2>
+          <h3>Dataverse</h3>
           <p>Stores knowledge articles, request metadata, and user preferences in a scalable low-code database.</p>
         </div>
       </div>
@@ -300,7 +314,7 @@
       <div class="platform-item">
         <img src="assets/images/azure-ad-icon.png" alt="Azure AD" class="platform-logo">
         <div class="platform-description">
-          <h2>Azure AD</h2>
+          <h3>Azure AD</h3>
           <p>Uses Microsoft Entra ID to personalize experiences and restrict access based on user role.</p>
         </div>
       </div>
@@ -308,7 +322,7 @@
       <div class="platform-item">
         <img src="assets/images/icons/jira-icon.png" alt="Jira" class="platform-logo">
         <div class="platform-description">
-          <h2>Jira</h2>
+          <h3>Jira</h3>
           <p>Creates, updates, and monitors request tickets without ever leaving Microsoft Teams.</p>
         </div>
       </div>
@@ -316,7 +330,7 @@
       <div class="platform-item">
         <img src="assets/images/sharepoint-icon.png" alt="SharePoint" class="platform-logo">
         <div class="platform-description">
-          <h2>SharePoint (SIA)</h2>
+          <h3>SharePoint (SIA)</h3>
           <p>Searches technical documents and manuals stored in the SIA document library using smart metadata filtering.</p>
         </div>
       </div>
@@ -324,7 +338,7 @@
       <div class="platform-item">
         <img src="assets/images/azure-openai-icon.png" alt="Azure OpenAI" class="platform-logo">
         <div class="platform-description">
-          <h2>Azure OpenAI (Planned)</h2>
+          <h3>Azure OpenAI (Planned)</h3>
           <p>Intelligent summarization, fallback response logic, and enhanced personalization are in development using OpenAI models.</p>
         </div>
       </div>
@@ -332,34 +346,38 @@
   </div>
 </section>
 
-<!-- Roadmap Section -->
-<section id="whats-next" class="main style3 fade-in-section">
-  <div class="container">
+		
+<!-- What's Next Section -->
+<section id="whats-next" class="whatnext-section fade-in-section">
+ <div class="whatnext-container">
 					<h2>What the Future Holds</h2>
 					<p>A glimpse into what’s coming next for SIAConnect</p>
 	
 				<div class="row gtr-150">
-					<div class="col-6 col-12-medium">
-						<h2>Field Training Enrollment</h2>
-						<p>Manage class signups, track attendance, and send post-training surveys automatically.</p>
-					</div>
-					<div class="col-6 col-12-medium">
-						<h2>Favorites & Personalization</h2>
-						<p>Let users save documents, videos, or KB articles and view frequently accessed content first.</p>
-					</div>
-					<div class="col-6 col-12-medium">
-						<h2>User Acknowledgment Tracking</h2>
-						<p>Confirm who’s seen what by linking interactions to each employee’s Entra ID.</p>
-					</div>
-					<div class="col-6 col-12-medium">
-						<h2>Upload & Summary from Technical Bulletins</h2>
-						<p>Drop in a PDF, generate a summary, and create a Knowledge Base article automatically.</p>
-					</div>
-					<div class="col-12">
-						<h2>Real-Time Part Recognition (Beta)</h2>
-						<p>Snap a photo of a product component and let SIAConnect identify it—powered by AI image recognition.</p>
-					</div>
+				<div class="col-6 col-12-medium">
+				<h3>Field Training Enrollment</h3>
+				<p>Manage class signups, track attendance, and send post-training surveys automatically.</p>
 				</div>
+				<div class="col-6 col-12-medium">
+				<h3>Favorites & Personalization</h3>
+				<p>Let users save documents, videos, or KB articles and view frequently accessed content first.</p>
+				</div></div>
+	 
+				<div class="row gtr-150">
+				<div class="col-6 col-12-medium">
+				<h3>User Acknowledgment Tracking</h3>
+				<p>Confirm who’s seen what by linking interactions to each employee’s Entra ID.</p>
+				</div>
+				<div class="col-6 col-12-medium">
+				<h3>Upload & Summary from Technical Bulletins</h3>
+				<p>Drop in a PDF, generate a summary, and create a Knowledge Base article automatically.</p>
+				</div></div>
+
+	<div class="row gtr-150">
+	<div class="col-12">
+	<h3>Real-Time Part Recognition (Beta)</h3>
+	<p>Snap a photo of a product component and let SIAConnect identify it—powered by AI image recognition.</p>
+	</div></div>
 			</div>
 		</section>
 
@@ -370,26 +388,25 @@
       <h2>Deploying SIAConnect: The Road Ahead</h2>
 
     <div class="row gtr-150">
-      <div class="col-12">
-        <h3>Rollout Strategy</h3>
-        <p>
-          Initial launch inside Microsoft Teams to targeted user groups, including Training, Help Desk Supervisors, and Senior Agents.<br>
-          Phased expansion based on adoption success, user feedback, and feature readiness.<br>
-          All access managed securely through Microsoft Entra ID groups — no public exposure.
+    <div class="col-12">
+        <h2>Rollout Strategy</h2>
+        <p>Initial launch inside Microsoft Teams to targeted user groups, including Training, Help Desk Supervisors, and Senior Agents.</p>
+          <p>Phased expansion based on adoption success, user feedback, and feature readiness.</p>
+          <p>All access managed securely through Microsoft Entra ID groups — no public exposure.
         </p>
 
-        <h3>Onboarding Experience</h3>
+        <h2>Onboarding Experience</h2>
         <p>
-          A streamlined "Welcome to SIAConnect" guide provided at rollout.<br>
-          In-chat tips and conversational guidance available immediately within Teams.<br>
-          Ongoing discovery supported through a "Tip of the Day" feature to keep users engaged.
+          A streamlined "Welcome to SIAConnect" guide provided at rollout.</p>
+          <p>In-chat tips and conversational guidance available immediately within Teams.</p>
+          <p>Ongoing discovery supported through a "Tip of the Day" feature to keep users engaged.
         </p>
 
-        <h3>Updates and Future Development</h3>
+        <h2>Updates and Future Development</h2>
         <p>
-          Continuous feature improvements based on user feedback.<br>
-          Transparent feature request tracking through Jira.<br>
-          Regular content updates and system enhancements without disrupting user experience.
+          Continuous feature improvements based on user feedback.</p>
+          <p>Transparent feature request tracking through Jira.</p>
+          <p>Regular content updates and system enhancements without disrupting user experience.
         </p>
       </div>
     </div>
